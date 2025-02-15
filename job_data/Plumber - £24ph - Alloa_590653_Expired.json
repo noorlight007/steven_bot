@@ -1,0 +1,215 @@
+{
+    "adId": 590653,
+    "state": "Expired",
+    "title": "Plumber - \u00a324ph - Alloa",
+    "reference": "GOPLU1202",
+    "summary": "Experienced Plumber required",
+    "bulletPoints": [
+        "Monday to Friday",
+        "08:00-16:30HRS",
+        "Must be able to obtain Enhanced Disclosure Cert"
+    ],
+    "description": "Are you an experienced&nbsp;<strong>Maintenance Plumber?<br></strong><br>Are you interested in an opportunity in&nbsp;<strong>Alloa?<br></strong><br>Recruitment Direct UK Ltd is a premier recruiter operating across the UK and we act for our client operating across Scotland in the Construction Industry.<br><br>We are seeking a qualified Plumner to join the maintenance team at a local authority. This position offers a structured work-life balance and may suit someone looking for reduced guaranteed hours, with the flexibility to take on additional work elsewhere if desired.<br>&nbsp;&nbsp;<br>Key Details:<br><br> <ul> <li>Hours: Monday to Thursday: 8:00 AM to 4:00 PM&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Friday: 8:00 AM to 1:00 PM</li> <li>Contract: Long-term with the possibility of offered full-time position&nbsp;</li> <li>Start Date: Dependent on Disclosure clearance (see below)</li> </ul> <br>&nbsp;&nbsp;<br>Requirements:<br> <ul> <li>Fully qualified Plumber (SVQ Level 3, City &amp; Guilds, or equivalent).</li> <li>Ability to pass enhanced disclosure and security clearance checks:</li> <li>Must have a clean criminal record (no unspent convictions).</li> <li>No driving bans</li> <li>Security clearance typically takes 3-4 weeks.</li> <li>Some departments allow an immediate start with a basic disclosure (if already obtained).</li> </ul> &nbsp;&nbsp;<br>Who This Job Suits:<br> <ul> <li>Plumbers looking for a stable, long-term position with set hours.</li> <li>Individuals comfortable working in a secure environment within the public sector.</li> </ul>",
+    "job": {
+        "jobId": 1153535,
+        "jobTitle": "Plumber",
+        "location": {
+            "locationId": 8342,
+            "name": "Scotland-Clackmannanshire"
+        },
+        "company": {
+            "companyId": 2010859,
+            "name": "Scottish Prison Service Head Office",
+            "status": {
+                "statusId": 522,
+                "name": "Active client",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1359,
+                "firstName": "Debbie",
+                "lastName": "Martiin",
+                "email": "debbie@rd1.co.uk",
+                "mobile": "07947221915",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/users/1359"
+                }
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/companies/2010859",
+                "logo": "https://eu3api.jobadder.com/v2/companies/2010859/logo",
+                "mainContact": "https://eu3api.jobadder.com/v2/contacts/10412482"
+            }
+        },
+        "contact": {
+            "contactId": 10580004,
+            "firstName": "Kenny",
+            "lastName": "Gilmour",
+            "position": "Deputy Area Maintenance Manager (Central)",
+            "salutation": "Mr",
+            "unsubscribed": false,
+            "email": "kenny.gilmour@prisons.gov.scot",
+            "phone": "01259 767300",
+            "mobile": "07990 520015",
+            "mobileNormalized": "+447990520015",
+            "status": {
+                "statusId": 234,
+                "name": "Active contact",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626"
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/contacts/10580004",
+                "company": "https://eu3api.jobadder.com/v2/companies/2010859"
+            }
+        },
+        "status": {
+            "statusId": 803,
+            "name": "Open",
+            "active": true,
+            "default": true
+        },
+        "source": "Existing client",
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/jobs/1153535"
+        }
+    },
+    "company": {
+        "companyId": 2010859,
+        "name": "Scottish Prison Service Head Office",
+        "status": {
+            "statusId": 522,
+            "name": "Active client",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1359,
+            "firstName": "Debbie",
+            "lastName": "Martiin",
+            "email": "debbie@rd1.co.uk",
+            "mobile": "07947221915",
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/users/1359"
+            }
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/companies/2010859",
+            "logo": "https://eu3api.jobadder.com/v2/companies/2010859/logo",
+            "mainContact": "https://eu3api.jobadder.com/v2/contacts/10412482"
+        }
+    },
+    "contact": {
+        "contactId": 10580004,
+        "firstName": "Kenny",
+        "lastName": "Gilmour",
+        "position": "Deputy Area Maintenance Manager (Central)",
+        "salutation": "Mr",
+        "unsubscribed": false,
+        "email": "kenny.gilmour@prisons.gov.scot",
+        "phone": "01259 767300",
+        "mobile": "07990 520015",
+        "mobileNormalized": "+447990520015",
+        "status": {
+            "statusId": 234,
+            "name": "Active contact",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/contacts/10580004",
+            "company": "https://eu3api.jobadder.com/v2/companies/2010859"
+        }
+    },
+    "jobBoards": [
+        {
+            "boardId": 369,
+            "name": "Indeed",
+            "reference": "llhmugg6aaautatxi2zle5pix4"
+        },
+        {
+            "boardId": 460,
+            "name": "Recruitment Direct - CareersPage",
+            "reference": "3whqhdcnf25evewe3ff3yd7q3m"
+        }
+    ],
+    "otherApplyUrls": [
+        {
+            "name": "LinkedIn",
+            "url": "https://adr.to/pjdwqai"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://adr.to/pndwqai"
+        },
+        {
+            "name": "Facebook",
+            "url": "https://adr.to/prdwqai"
+        },
+        {
+            "name": "Indeed",
+            "url": "https://adr.to/pvdwqai"
+        }
+    ],
+    "owner": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626",
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/users/1358"
+        }
+    },
+    "createdBy": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626"
+    },
+    "createdAt": "2025-02-12T16:24:42Z",
+    "postAt": "2025-02-12T16:24:47Z",
+    "expireAt": "2025-02-14T12:41:43Z",
+    "links": {
+        "self": "https://eu3api.jobadder.com/v2/jobads/590653",
+        "applications": "https://eu3api.jobadder.com/v2/jobads/590653/applications"
+    }
+}
