@@ -1,0 +1,204 @@
+{
+    "adId": 587309,
+    "state": "Expired",
+    "title": "Maintenance Operative (Painting Experience) - \u00a314ph - Falkirk",
+    "reference": "POLPMO2801",
+    "summary": "Are you an experienced\u00a0Maintenance Operative with Painting experience\r\n\r\nAre you interested in an opportunity in Falkirk?",
+    "bulletPoints": [
+        "\u00a314 per hour",
+        "Must have Painting Experience",
+        "Enhanced Disclosure Scotland Certificate will be required before starting"
+    ],
+    "description": "Are you an experienced&nbsp;<strong>Maintenance Operative with Painting experience<br></strong><br>Are you interested in an opportunity in <strong>Falkirk?<br></strong><br>Recruitment Direct UK Ltd is a premier recruiter operating across the UK and we act for our client operating across Scotland in the Construction Industry.<br>You will carry out basic routine planned preventative maintenance (PPM) and repair tasks. You will support the Area Estates team. This will be carried out to pre-set timescales, technical direction and standards.<br><br><strong>Responsibilities:</strong><br> <ul> <li>Undertake routine work such as minor repair tasks on electrical, plumbing, building equipment wiht the main focus bein on painting work.</li> <li>Supported by the engineering team, you will carry out allocated tasks and be trained in electrical appliance testing, inspecting fire systems, equipment maintenance testing and inspection.</li> <li>Maintaining a safe and healthy working environment and reporting any dangers/deficiencies.</li> <li>You may be asked to work out with your normal working hours as part of the maintenance on-call rota.</li> <li>Assisting with the escorting of specialist external contractors when required</li> </ul> <br>Candidates must be able to provide the following<br>documentation/Certifications:<br> <ul> <li>Minimum of 2 Standard Grades at level 3 or equivalent</li> <li><strong>Enhanced Disclosure Scotland ( If not already held, must be able to make an application upon a successful interview)</strong></li> </ul> INDCON",
+    "job": {
+        "jobId": 1147498,
+        "jobTitle": "Maintenance Operative (Painting Experience)",
+        "location": {
+            "locationId": 8350,
+            "name": "Scotland-Falkirk"
+        },
+        "company": {
+            "companyId": 2010859,
+            "name": "Scottish Prison Service Head Office",
+            "status": {
+                "statusId": 522,
+                "name": "Active client",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1359,
+                "firstName": "Debbie",
+                "lastName": "Martiin",
+                "email": "debbie@rd1.co.uk",
+                "mobile": "07947221915",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/users/1359"
+                }
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/companies/2010859",
+                "logo": "https://eu3api.jobadder.com/v2/companies/2010859/logo",
+                "mainContact": "https://eu3api.jobadder.com/v2/contacts/10412482"
+            }
+        },
+        "contact": {
+            "contactId": 11171478,
+            "firstName": "Darren",
+            "lastName": "Campbell",
+            "unsubscribed": false,
+            "email": "darren.campbell@prisons.gov.scot",
+            "status": {
+                "statusId": 234,
+                "name": "Active contact",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626"
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/contacts/11171478",
+                "company": "https://eu3api.jobadder.com/v2/companies/2010859"
+            }
+        },
+        "status": {
+            "statusId": 804,
+            "name": "Filled by us",
+            "active": false
+        },
+        "source": "Existing client",
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/jobs/1147498"
+        }
+    },
+    "company": {
+        "companyId": 2010859,
+        "name": "Scottish Prison Service Head Office",
+        "status": {
+            "statusId": 522,
+            "name": "Active client",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1359,
+            "firstName": "Debbie",
+            "lastName": "Martiin",
+            "email": "debbie@rd1.co.uk",
+            "mobile": "07947221915",
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/users/1359"
+            }
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/companies/2010859",
+            "logo": "https://eu3api.jobadder.com/v2/companies/2010859/logo",
+            "mainContact": "https://eu3api.jobadder.com/v2/contacts/10412482"
+        }
+    },
+    "contact": {
+        "contactId": 11171478,
+        "firstName": "Darren",
+        "lastName": "Campbell",
+        "unsubscribed": false,
+        "email": "darren.campbell@prisons.gov.scot",
+        "status": {
+            "statusId": 234,
+            "name": "Active contact",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/contacts/11171478",
+            "company": "https://eu3api.jobadder.com/v2/companies/2010859"
+        }
+    },
+    "jobBoards": [
+        {
+            "boardId": 369,
+            "name": "Indeed",
+            "reference": "llhmugg6aaautatxi2zle5pix4"
+        },
+        {
+            "boardId": 460,
+            "name": "Recruitment Direct - CareersPage",
+            "reference": "3whqhdcnf25evewe3ff3yd7q3m"
+        }
+    ],
+    "otherApplyUrls": [
+        {
+            "name": "LinkedIn",
+            "url": "https://adr.to/7aogmai"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://adr.to/7eogmai"
+        },
+        {
+            "name": "Facebook",
+            "url": "https://adr.to/7iogmai"
+        },
+        {
+            "name": "Indeed",
+            "url": "https://adr.to/7mogmai"
+        }
+    ],
+    "owner": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626",
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/users/1358"
+        }
+    },
+    "createdBy": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626"
+    },
+    "createdAt": "2025-01-28T11:29:34Z",
+    "postAt": "2025-01-28T11:29:40Z",
+    "expireAt": "2025-01-31T16:14:49Z",
+    "links": {
+        "self": "https://eu3api.jobadder.com/v2/jobads/587309",
+        "applications": "https://eu3api.jobadder.com/v2/jobads/587309/applications"
+    }
+}

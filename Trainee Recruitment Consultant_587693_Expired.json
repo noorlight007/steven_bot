@@ -1,0 +1,218 @@
+{
+    "adId": 587693,
+    "state": "Expired",
+    "title": "Trainee Recruitment Consultant",
+    "reference": "TRCRDUK2901",
+    "summary": "Recruitment Direct UK Ltd is looking for a Trainee Recruitment Consultant to join their growing team based in Linlithgow",
+    "bulletPoints": [
+        "Full Time / Permanent Role",
+        "\u00a322.5k pa",
+        "Must be hardworking, reliable and ambitious"
+    ],
+    "description": "<strong>Trainee Recruitment Consultant &ndash; Recruitment Direct UK Ltd<br></strong><br> <strong>Location:</strong> Linlithgow (Office-based, hybrid working available after probation)<br><strong>Type:</strong> Full-time, Permanent<br><strong>Salary:</strong> &pound;22.5k pa + Bonus &amp; Career Progression<br> &nbsp;<br> Are you looking to build a successful career in recruitment? Do you have a keen eye for detail and a proactive attitude? <br><br>If so, <strong>Recruitment Direct UK Ltd</strong> wants to hear from you!<br> &nbsp;<br> <strong>About Us</strong><br> At <strong>Recruitment Direct UK Ltd</strong>, we specialise in connecting top talent with leading employers across various industries. With over 20 years of experience, we take pride in our professional yet personable approach to recruitment. As we continue to grow, we're looking for an ambitious <strong>Trainee Recruitment Consultant</strong> to join our team in Linlithgow.<br> &nbsp;<br> <strong>The Role</strong><br> This is a fantastic opportunity for someone looking to gain hands-on experience in recruitment while providing essential <strong>administrative support</strong>. You&rsquo;ll be learning the full 360 recruitment process, with the goal of progressing into a <strong>Recruitment Consultant role</strong>.<br> &nbsp;<br> <strong>During your training, you will:</strong><br>Assist with recruitment admin tasks, such as CV formatting and database management<br>Post job adverts and screen potential candidates<br>Arrange interviews and liaise with clients and candidates<br>Support compliance processes and maintain accurate records<br>Gain insight into business development and client relationship management<br> &nbsp;<br> As you develop, you&rsquo;ll receive <strong>full training and mentorship</strong> to become a 360 Recruitment Consultant, managing your own clients and candidates.<br> &nbsp;<br> <strong>What We&rsquo;re Looking For</strong><br> Strong organisational skills and attention to detail<br>Excellent communication and interpersonal skills<br>Ability to multitask in a fast-paced environment<br>A proactive and ambitious attitude<br> Previous admin or customer service experience (desirable but not essential)<br> &nbsp;<br> <strong>What&rsquo;s in It for You?</strong><br> Full training and career progression to a 360 Recruitment Consultant role<br>Friendly and supportive team environment<br>Office-based role in Linlithgow, with hybrid working after probation<br> &nbsp;<br> If you&rsquo;re ready to start an exciting career in recruitment with a company that values growth and development, we&rsquo;d love to hear from you!<br> &nbsp;<br>INDCON",
+    "job": {
+        "jobId": 1149026,
+        "jobTitle": "Trainee Recruitment Consultant",
+        "location": {
+            "locationId": 8366,
+            "name": "Scotland-West Lothian"
+        },
+        "company": {
+            "companyId": 1848272,
+            "name": "Recruitment Direct UK LTD",
+            "status": {
+                "statusId": 522,
+                "name": "Active client",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/users/1358"
+                }
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/companies/1848272",
+                "logo": "https://eu3api.jobadder.com/v2/companies/1848272/logo"
+            }
+        },
+        "contact": {
+            "contactId": 9419200,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "unsubscribed": false,
+            "email": "nicola@recruitmentdirect.info",
+            "status": {
+                "statusId": 234,
+                "name": "Active contact",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626"
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/contacts/9419200",
+                "company": "https://eu3api.jobadder.com/v2/companies/1848272"
+            }
+        },
+        "status": {
+            "statusId": 804,
+            "name": "Filled by us",
+            "active": false
+        },
+        "source": "Business Development",
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/jobs/1149026"
+        }
+    },
+    "company": {
+        "companyId": 1848272,
+        "name": "Recruitment Direct UK LTD",
+        "status": {
+            "statusId": 522,
+            "name": "Active client",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626",
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/users/1358"
+            }
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/companies/1848272",
+            "logo": "https://eu3api.jobadder.com/v2/companies/1848272/logo"
+        }
+    },
+    "contact": {
+        "contactId": 9419200,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "unsubscribed": false,
+        "email": "nicola@recruitmentdirect.info",
+        "status": {
+            "statusId": 234,
+            "name": "Active contact",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/contacts/9419200",
+            "company": "https://eu3api.jobadder.com/v2/companies/1848272"
+        }
+    },
+    "jobBoards": [
+        {
+            "boardId": 369,
+            "name": "Indeed",
+            "reference": "llhmugg6aaautatxi2zle5pix4"
+        },
+        {
+            "boardId": 435,
+            "name": "linkedin.com",
+            "reference": "n2oskbglhbve7hmhcayhu3d3rq"
+        },
+        {
+            "boardId": 436,
+            "name": "linkedin.com(1)",
+            "reference": "u3i47vz2tcfezkuzisunkzldfq"
+        },
+        {
+            "boardId": 460,
+            "name": "Recruitment Direct - CareersPage",
+            "reference": "3whqhdcnf25evewe3ff3yd7q3m"
+        }
+    ],
+    "otherApplyUrls": [
+        {
+            "name": "LinkedIn",
+            "url": "https://adr.to/qbggmai"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://adr.to/qjggmai"
+        },
+        {
+            "name": "Facebook",
+            "url": "https://adr.to/qnggmai"
+        },
+        {
+            "name": "Indeed",
+            "url": "https://adr.to/qrggmai"
+        }
+    ],
+    "owner": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626",
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/users/1358"
+        }
+    },
+    "createdBy": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626"
+    },
+    "createdAt": "2025-01-29T16:18:59Z",
+    "postAt": "2025-01-29T16:19:05Z",
+    "expireAt": "2025-01-31T15:37:49Z",
+    "links": {
+        "self": "https://eu3api.jobadder.com/v2/jobads/587693",
+        "applications": "https://eu3api.jobadder.com/v2/jobads/587693/applications"
+    }
+}

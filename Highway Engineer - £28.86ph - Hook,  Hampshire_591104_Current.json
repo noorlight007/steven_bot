@@ -1,0 +1,212 @@
+{
+    "adId": 591104,
+    "state": "Current",
+    "title": "Highway Engineer - \u00a328.86ph - Hook,  Hampshire",
+    "reference": "HCCHE1402",
+    "summary": "Recruitment Direct UK is looking for an experienced Highway Engineer for the Local Authority Client in Hampshire.",
+    "bulletPoints": [
+        "Hybrid - Depot & Home. Depot location is likely to be Hook (TBC) Working from",
+        "RQF Level 4 or Degree level qualification in a relevant field",
+        "01.04.2025 Proposed Start Date"
+    ],
+    "description": "<br> <strong>Recruitment Direct UK</strong> is looking for an experienced <strong>Highway Engineer</strong> for the Local Authority Client in <strong>Hampshire</strong>.<br> &nbsp;<br> <strong>Job Title:</strong> Highway Engineer (Asset management) <br><strong>Location:</strong> Hybrid - Depot &amp; Home. Depot location is likely to be Hook (TBC) Working from <br>home days to be discussed at interview stage. <br><strong>&pound;28.86 per hour </strong><br><br><br><span style=\"text-decoration:underline\"><strong>Any additional requirements: </strong></span><br>DBS required: No <br>Driving Licence required: Yes - Car use <br>Planned Start Date: 01-04-2025 <br>Role duration and typical hours: 3-6 months and then review - 37 hours max a week<br> <br><span style=\"text-decoration:underline\"><strong>Role Summary </strong></span><br>As part of this role, the candidate should expect to carry out work within the following areas: <br>&bull; Implement solutions, agree modifications and oversee the preparation of highway maintenance <br>and minor improvement schemes from identification of need, through detailed design and <br>implementation. <br>&bull; Provide technical input throughout the construction period. <br>&bull; Plan and programme resources for the design and implementation of annual programmes of <br>highway maintenance and minor improvement schemes. <br>&bull; Establish agreed solutions with interested parties, which meet engineering, budgetary and <br>environmental requirements. <br>&bull; Prepare estimates and raise works orders for highway maintenance and minor improvement <br>schemes. <br>&bull; Monitor and review individual scheme budgets and agree final accounts for authorisation. <br>&bull; Liaise with internal designers, local highway engineers, statutory undertakers, external <br>consultants, the term service Contractor and the general public. <br>&bull; Represent the County Council at public meetings, to carry out consultations on programme <br>proposals and to advise County Councillors as necessary. <br>&bull; Support and develop technical staff through effective supervision and allocation of work. <br>&bull; Assist with the management of the Management Branch to achieve business plan objectives, <br>including continuous improvement <br><br><br><span style=\"text-decoration:underline\"><strong>Required Qualifications and Experience </strong></span><br>&bull; RQF Level 4 or Degree level qualification in a relevant field <br>&bull; Incorporated Engineer with a relevant body or equivalent experience <br>&bull; Knowledge of relevant highway design standards and procedures <br>&bull; Experience in the design, management and supervision of highways maintenance works <br>&bull; Appreciation of contract procedures, preferably with the NEC Term Service Contract<br> <br><span style=\"text-decoration:underline\"><strong>Decision Making Areas </strong></span><br>&bull; Assessing feasibility and detailed designs produced by junior staff <br>&bull; Discussing and negotiating works with stakeholders, the public and elected members <br>&bull; Solution of design and site-based issues <br>&bull; Ensuring works are designed and constructed in line with relevant health and safety guidance <br>and legislation.<br> <br><span style=\"text-decoration:underline\"><strong>Working Conditions </strong></span><br>&bull; Working environment to be an equal split between hybrid (home and office) and site. <br>&bull; Communicating with colleagues and contractors in a challenging environment. <br>&bull; Ability to fulfil the travel requirements of the role. <br>&bull; Some out of hours working, in the case of emergencies, flooding and extreme weather.",
+    "job": {
+        "jobId": 1155730,
+        "jobTitle": "Highway Engineer",
+        "location": {
+            "locationId": 8303,
+            "name": "England-Hampshire"
+        },
+        "company": {
+            "companyId": 2089674,
+            "name": "Commercial Services Group",
+            "status": {
+                "statusId": 522,
+                "name": "Active client",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/users/1358"
+                }
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/companies/2089674"
+            }
+        },
+        "contact": {
+            "contactId": 14845011,
+            "firstName": "Daniel",
+            "lastName": "Goodyear",
+            "unsubscribed": false,
+            "email": "daniel.goodyear@connect2hampshire.co.uk",
+            "status": {
+                "statusId": 234,
+                "name": "Active contact",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626"
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/contacts/14845011",
+                "company": "https://eu3api.jobadder.com/v2/companies/2089674"
+            }
+        },
+        "status": {
+            "statusId": 803,
+            "name": "Open",
+            "active": true,
+            "default": true
+        },
+        "source": "Existing client",
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/jobs/1155730"
+        }
+    },
+    "company": {
+        "companyId": 2089674,
+        "name": "Commercial Services Group",
+        "status": {
+            "statusId": 522,
+            "name": "Active client",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626",
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/users/1358"
+            }
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/companies/2089674"
+        }
+    },
+    "contact": {
+        "contactId": 14845011,
+        "firstName": "Daniel",
+        "lastName": "Goodyear",
+        "unsubscribed": false,
+        "email": "daniel.goodyear@connect2hampshire.co.uk",
+        "status": {
+            "statusId": 234,
+            "name": "Active contact",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/contacts/14845011",
+            "company": "https://eu3api.jobadder.com/v2/companies/2089674"
+        }
+    },
+    "jobBoards": [
+        {
+            "boardId": 369,
+            "name": "Indeed",
+            "reference": "llhmugg6aaautatxi2zle5pix4"
+        },
+        {
+            "boardId": 436,
+            "name": "linkedin.com(1)",
+            "reference": "u3i47vz2tcfezkuzisunkzldfq"
+        },
+        {
+            "boardId": 460,
+            "name": "Recruitment Direct - CareersPage",
+            "reference": "3whqhdcnf25evewe3ff3yd7q3m"
+        }
+    ],
+    "otherApplyUrls": [
+        {
+            "name": "LinkedIn",
+            "url": "https://adr.to/72twqai"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://adr.to/76twqai"
+        },
+        {
+            "name": "Facebook",
+            "url": "https://adr.to/acugqai"
+        },
+        {
+            "name": "Indeed",
+            "url": "https://adr.to/agugqai"
+        }
+    ],
+    "owner": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626",
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/users/1358"
+        }
+    },
+    "createdBy": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626"
+    },
+    "createdAt": "2025-02-14T12:13:31Z",
+    "postAt": "2025-02-14T12:13:36Z",
+    "expireAt": "2025-03-16T12:13:00Z",
+    "links": {
+        "self": "https://eu3api.jobadder.com/v2/jobads/591104",
+        "applications": "https://eu3api.jobadder.com/v2/jobads/591104/applications"
+    }
+}

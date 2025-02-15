@@ -1,0 +1,213 @@
+{
+    "adId": 591087,
+    "state": "Current",
+    "title": "Electrical Installation Lecturer - \u00a324.65ph - Falkirk",
+    "reference": "FVCEIL1402",
+    "summary": "Recruitment Direct UK Ltd is looking for an Electrical Installation Lecturer for their Local Educational Institute Client based in Falkirk.",
+    "bulletPoints": [
+        "Immediate Start",
+        "\u00a324.65 per hour",
+        "Full time (35 hours pw which is 23 hours teaching + prep/marking time) Tuesday -"
+    ],
+    "description": "<span style=\"text-align:justify\"><strong>Recruitment Direct UK Ltd</strong> is looking for an <strong>Electrical Installation Lecturer</strong> for their Local Educational Institute Client based in <strong>Falkirk.</strong></span><br> &nbsp;<br> <div><span style=\"text-align:justify\">Embark on an exciting journey as an Electrical Installation Lecturer , where you'll have the opportunity to share your expertise and inspire the next generation of electricians. </span><br> &nbsp;<br> <span style=\"text-align:justify\">In this temporary role, you'll be responsible for delivering engaging and practical lessons to our Modern Apprentices, helping them develop the skills they need to thrive in the industry.</span><br> <ul> <li>Become a vital part of our dynamic education team</li> <li>Contribute to the growth and development of our students</li> <li>Immediate Start</li> <li>&pound;24.65 per hour</li> <li>Full time (35 hours pw which is 23 hours teaching + prep/marking time)</li> <li>Tuesday &ndash; Friday teaching full days, prep time on Monday</li> </ul> <strong>Preferred Requirements:</strong> <ul> <li>Proficient in maintaining electrical equipment and systems, including PEO2/037, PEO2/033, and PEO2/034</li> <li>Experienced in delivering practical, workshop-based lessons with some classroom input</li> <li>Comfortable working with a diverse range of students, including Modern Apprentices</li> <li>Excellent communication and interpersonal skills to engage and motivate your students</li> <li>Passionate about sharing your knowledge and fostering a love of learning</li> </ul> <strong>Preferred Qualifications:</strong> <ul> <li>SJIB/JIB registered Approved Electrician or Maintenance Electrician</li> <li>Minimum SVQ level 3 qualification with at least 5 years of industrial experience</li> <li>Previous teaching experience or assessor experience is desirable</li> </ul> </div>",
+    "job": {
+        "jobId": 1155298,
+        "jobTitle": "Electrical Installation Lecturer",
+        "location": {
+            "locationId": 8350,
+            "name": "Scotland-Falkirk"
+        },
+        "company": {
+            "companyId": 2813858,
+            "name": "Forth Valley College",
+            "status": {
+                "statusId": 522,
+                "name": "Active client",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/users/1358"
+                }
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/companies/2813858",
+                "logo": "https://eu3api.jobadder.com/v2/companies/2813858/logo",
+                "mainContact": "https://eu3api.jobadder.com/v2/contacts/15102045"
+            }
+        },
+        "contact": {
+            "contactId": 15102166,
+            "firstName": "Wullie",
+            "lastName": "Forrest",
+            "position": "Operations Manager, STEM & Construction",
+            "unsubscribed": false,
+            "email": "William.Forrest@forthvalley.ac.uk",
+            "status": {
+                "statusId": 234,
+                "name": "Active contact",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626"
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/contacts/15102166",
+                "company": "https://eu3api.jobadder.com/v2/companies/2813858"
+            }
+        },
+        "status": {
+            "statusId": 803,
+            "name": "Open",
+            "active": true,
+            "default": true
+        },
+        "source": "Existing client",
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/jobs/1155298"
+        }
+    },
+    "company": {
+        "companyId": 2813858,
+        "name": "Forth Valley College",
+        "status": {
+            "statusId": 522,
+            "name": "Active client",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626",
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/users/1358"
+            }
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/companies/2813858",
+            "logo": "https://eu3api.jobadder.com/v2/companies/2813858/logo",
+            "mainContact": "https://eu3api.jobadder.com/v2/contacts/15102045"
+        }
+    },
+    "contact": {
+        "contactId": 15102166,
+        "firstName": "Wullie",
+        "lastName": "Forrest",
+        "position": "Operations Manager, STEM & Construction",
+        "unsubscribed": false,
+        "email": "William.Forrest@forthvalley.ac.uk",
+        "status": {
+            "statusId": 234,
+            "name": "Active contact",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/contacts/15102166",
+            "company": "https://eu3api.jobadder.com/v2/companies/2813858"
+        }
+    },
+    "jobBoards": [
+        {
+            "boardId": 369,
+            "name": "Indeed",
+            "reference": "llhmugg6aaautatxi2zle5pix4"
+        },
+        {
+            "boardId": 460,
+            "name": "Recruitment Direct - CareersPage",
+            "reference": "3whqhdcnf25evewe3ff3yd7q3m"
+        }
+    ],
+    "otherApplyUrls": [
+        {
+            "name": "LinkedIn",
+            "url": "https://adr.to/pwtgqai"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://adr.to/p2tgqai"
+        },
+        {
+            "name": "Facebook",
+            "url": "https://adr.to/p6tgqai"
+        },
+        {
+            "name": "Indeed",
+            "url": "https://adr.to/qctgqai"
+        }
+    ],
+    "owner": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626",
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/users/1358"
+        }
+    },
+    "createdBy": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626"
+    },
+    "createdAt": "2025-02-14T11:15:45Z",
+    "postAt": "2025-02-14T11:15:50Z",
+    "expireAt": "2025-03-16T11:15:00Z",
+    "links": {
+        "self": "https://eu3api.jobadder.com/v2/jobads/591087",
+        "applications": "https://eu3api.jobadder.com/v2/jobads/591087/applications"
+    }
+}

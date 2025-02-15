@@ -1,0 +1,204 @@
+{
+    "adId": 588253,
+    "state": "Expired",
+    "title": "Estates Surveyor - \u00a3313 per day - Kent",
+    "reference": "KCCES3101",
+    "summary": "Recruitment Direct UK Ltd is looking for an experienced Estates Surveyor for their Local Authority Client based in Kent.",
+    "bulletPoints": [],
+    "description": "<strong>Recruitment Direct UK Ltd</strong> is looking for an experienced<strong> Estates Surveyor</strong> for their Local Authority Client based in <strong>Kent</strong>.<br> &nbsp;<br> As part of team of Surveyors you will deliver a professional property advice on land and property issues <br>including estate compliance, landlord and tenant, inspections, rates and asset insurance and account <br>valuations, boundary disputes, village green applications, defects in title.<br> <br>The post holder will implement the estates strategies across a portfolio of properties. The portfolio will <br>vary in size will include a number of complex cases which will require the post holder expertise to <br>develop strategies and solutions.<br> <br>Ideally the successful candidate would have the following: <br>&bull; MRICS qualified, although a BSc holder who is actively pursuing the APC to join RICS would also <br>&nbsp; be considered. <br>&bull; Experience in a property / estates team within the public sector environment. <br>&bull; A good team player and communication skills with the ability to take accountability and <br>&nbsp; ownership of cases and progress them through to completion<br> &nbsp;<br> <strong>Daily rate: &pound;313.00<br><br></strong>INDCON",
+    "job": {
+        "jobId": 1135063,
+        "jobTitle": "Estates Surveyor",
+        "location": {
+            "locationId": 8307,
+            "name": "England-Kent"
+        },
+        "company": {
+            "companyId": 2089674,
+            "name": "Commercial Services Group",
+            "status": {
+                "statusId": 522,
+                "name": "Active client",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/users/1358"
+                }
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/companies/2089674"
+            }
+        },
+        "contact": {
+            "contactId": 11178639,
+            "firstName": "Jessica",
+            "lastName": "Nichols",
+            "position": "Resourcing and Customer Service Assistant",
+            "unsubscribed": false,
+            "email": "Jessica.Nichols@connect2dorset.co.uk",
+            "status": {
+                "statusId": 234,
+                "name": "Active contact",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1359,
+                "firstName": "Debbie",
+                "lastName": "Martiin",
+                "email": "debbie@rd1.co.uk",
+                "mobile": "07947221915"
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/contacts/11178639",
+                "company": "https://eu3api.jobadder.com/v2/companies/2089674"
+            }
+        },
+        "status": {
+            "statusId": 803,
+            "name": "Open",
+            "active": true,
+            "default": true
+        },
+        "source": "Existing client",
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/jobs/1135063"
+        }
+    },
+    "company": {
+        "companyId": 2089674,
+        "name": "Commercial Services Group",
+        "status": {
+            "statusId": 522,
+            "name": "Active client",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626",
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/users/1358"
+            }
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/companies/2089674"
+        }
+    },
+    "contact": {
+        "contactId": 11178639,
+        "firstName": "Jessica",
+        "lastName": "Nichols",
+        "position": "Resourcing and Customer Service Assistant",
+        "unsubscribed": false,
+        "email": "Jessica.Nichols@connect2dorset.co.uk",
+        "status": {
+            "statusId": 234,
+            "name": "Active contact",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1359,
+            "firstName": "Debbie",
+            "lastName": "Martiin",
+            "email": "debbie@rd1.co.uk",
+            "mobile": "07947221915"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/contacts/11178639",
+            "company": "https://eu3api.jobadder.com/v2/companies/2089674"
+        }
+    },
+    "jobBoards": [
+        {
+            "boardId": 369,
+            "name": "Indeed",
+            "reference": "llhmugg6aaautatxi2zle5pix4"
+        },
+        {
+            "boardId": 436,
+            "name": "linkedin.com(1)",
+            "reference": "u3i47vz2tcfezkuzisunkzldfq"
+        },
+        {
+            "boardId": 460,
+            "name": "Recruitment Direct - CareersPage",
+            "reference": "3whqhdcnf25evewe3ff3yd7q3m"
+        }
+    ],
+    "otherApplyUrls": [
+        {
+            "name": "LinkedIn",
+            "url": "https://adr.to/nwtwmai"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://adr.to/n2twmai"
+        },
+        {
+            "name": "Facebook",
+            "url": "https://adr.to/n6twmai"
+        },
+        {
+            "name": "Indeed",
+            "url": "https://adr.to/ogtwmai"
+        }
+    ],
+    "owner": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626",
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/users/1358"
+        }
+    },
+    "createdBy": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626"
+    },
+    "createdAt": "2025-01-31T15:35:49Z",
+    "postAt": "2025-01-31T15:35:55Z",
+    "expireAt": "2025-02-05T09:32:28Z",
+    "links": {
+        "self": "https://eu3api.jobadder.com/v2/jobads/588253",
+        "applications": "https://eu3api.jobadder.com/v2/jobads/588253/applications"
+    }
+}

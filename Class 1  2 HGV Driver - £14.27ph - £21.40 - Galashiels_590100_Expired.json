@@ -1,0 +1,217 @@
+{
+    "adId": 590100,
+    "state": "Expired",
+    "title": "Class 1 / 2 HGV Driver - \u00a314.27ph - \u00a321.40 - Galashiels",
+    "reference": "SWHGV1102",
+    "summary": "Recruitment Direct UK Ltd are urgently requiring \u00a0HGV Class 1/2 Drivers\u00a0in Galashiels",
+    "bulletPoints": [
+        "\u00a314.27ph - \u00a321.40",
+        "OT after 35 hours & weekends",
+        "Must have clean licence"
+    ],
+    "description": "<strong>Recruitment Direct UK Ltd</strong> are urgently requiring <strong>&nbsp;HGV Class 1/2 Drivers</strong>&nbsp;in <strong>Galashiels</strong><br>&nbsp;<br>This will be working for a well known utilities company working on Waste Water, 35 hours per week.<br>&nbsp;<br> <ul> <li>Drivers will undergo a Drug and alcohol test prior to starting and also will require a Basic Disclosure Scotland. This can be acquired once D &amp; A test is complete.</li> <li>Candidates must be physically fit due to the nature of the job.</li> <li>Full training will be provided.</li> <li>Candidates must have&nbsp;<strong>held licence for minimum 2 year</strong>s as per customer requirements.</li> <li>Must have a&nbsp;<strong>clean</strong>&nbsp;licence.</li> <li>Full Time</li> <li><strong>&pound;14.27ph - &pound;21.40</strong></li> <li><strong>OT after 35 hours &amp; weekends</strong></li> </ul>",
+    "job": {
+        "jobId": 962595,
+        "jobTitle": "Class 1 / 2 HGV Driver",
+        "location": {
+            "locationId": 8361,
+            "name": "Scotland-Scottish Borders"
+        },
+        "company": {
+            "companyId": 1881756,
+            "name": "Scottish Water Head Office",
+            "status": {
+                "statusId": 522,
+                "name": "Active client",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/users/1358"
+                }
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/companies/1881756",
+                "logo": "https://eu3api.jobadder.com/v2/companies/1881756/logo",
+                "mainContact": "https://eu3api.jobadder.com/v2/contacts/10413833"
+            }
+        },
+        "contact": {
+            "contactId": 9693016,
+            "firstName": "Alison",
+            "lastName": "Buick",
+            "position": "Waste Services Team Manager",
+            "unsubscribed": false,
+            "email": "alison.buick@scottishwater.co.uk",
+            "mobile": "07785 474626",
+            "mobileNormalized": "+447785474626",
+            "status": {
+                "statusId": 234,
+                "name": "Active contact",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626"
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/contacts/9693016",
+                "company": "https://eu3api.jobadder.com/v2/companies/1881756"
+            }
+        },
+        "status": {
+            "statusId": 803,
+            "name": "Open",
+            "active": true,
+            "default": true
+        },
+        "source": "Existing client",
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/jobs/962595"
+        }
+    },
+    "company": {
+        "companyId": 1881756,
+        "name": "Scottish Water Head Office",
+        "status": {
+            "statusId": 522,
+            "name": "Active client",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626",
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/users/1358"
+            }
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/companies/1881756",
+            "logo": "https://eu3api.jobadder.com/v2/companies/1881756/logo",
+            "mainContact": "https://eu3api.jobadder.com/v2/contacts/10413833"
+        }
+    },
+    "contact": {
+        "contactId": 9693016,
+        "firstName": "Alison",
+        "lastName": "Buick",
+        "position": "Waste Services Team Manager",
+        "unsubscribed": false,
+        "email": "alison.buick@scottishwater.co.uk",
+        "mobile": "07785 474626",
+        "mobileNormalized": "+447785474626",
+        "status": {
+            "statusId": 234,
+            "name": "Active contact",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/contacts/9693016",
+            "company": "https://eu3api.jobadder.com/v2/companies/1881756"
+        }
+    },
+    "jobBoards": [
+        {
+            "boardId": 369,
+            "name": "Indeed",
+            "reference": "llhmugg6aaautatxi2zle5pix4"
+        },
+        {
+            "boardId": 460,
+            "name": "Recruitment Direct - CareersPage",
+            "reference": "3whqhdcnf25evewe3ff3yd7q3m"
+        }
+    ],
+    "otherApplyUrls": [
+        {
+            "name": "LinkedIn",
+            "url": "https://adr.to/laggqai"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://adr.to/leggqai"
+        },
+        {
+            "name": "Facebook",
+            "url": "https://adr.to/liggqai"
+        },
+        {
+            "name": "Indeed",
+            "url": "https://adr.to/lmggqai"
+        }
+    ],
+    "owner": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626",
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/users/1358"
+        }
+    },
+    "createdBy": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626"
+    },
+    "createdAt": "2025-02-11T09:29:49Z",
+    "postAt": "2025-02-11T09:29:54Z",
+    "expireAt": "2025-02-12T22:49:48Z",
+    "links": {
+        "self": "https://eu3api.jobadder.com/v2/jobads/590100",
+        "applications": "https://eu3api.jobadder.com/v2/jobads/590100/applications"
+    }
+}
