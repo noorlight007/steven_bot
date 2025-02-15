@@ -1,6 +1,6 @@
 from flask import Flask, redirect, request, session, url_for, render_template
 import requests
-import os
+import os, json
 
 app = Flask(__name__)
 app.secret_key = "yejeyje4h5trn41dty4mnj8dt"  # Change this to a secure random key
@@ -16,7 +16,7 @@ TOKEN_URL = "https://id.jobadder.com/connect/token"
 API_BASE_URL = "https://api.jobadder.com/v2"
 
 # Scopes needed (adjust based on needs)
-SCOPES = "read_job offline_access"
+SCOPES = "write read_job offline_access"
 
 
 @app.route("/")
@@ -66,6 +66,8 @@ def callback():
         tokens = response.json()
         session["access_token"] = tokens["access_token"]
         session["refresh_token"] = tokens.get("refresh_token", "")
+        with open("creds.json", "w") as file:
+            json.dump(tokens, file, indent=4)
         return redirect(url_for("get_jobs"))
     else:
         return f"Failed to get access token: {response.json()}"
