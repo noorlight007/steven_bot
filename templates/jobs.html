@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Listings</title>
+</head>
+<body>
+    <h2>Live Job Listings</h2>
+    <a href="{{ url_for('logout') }}">Logout</a>
+    <ul>
+        {% for job in jobs.get('items', []) %}
+            <li>{{ job.get('title', 'No Title') }} - {{ job.get('status', {}).get('name', 'Unknown Status') }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
