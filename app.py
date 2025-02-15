@@ -58,10 +58,10 @@ def callback():
     token_data = {
         "client_id": CLIENT_ID,
         "client_secret": CLIENT_SECRET,
-        "grant_type": "authorization_code",
-        "code": auth_code,
-        "redirect_uri": REDIRECT_URI,
+        "grant_type": "refresh_token",
+        "refresh_token": "f2d1f83ef979f2ef23b7b30cc53ed3c7"
     }
+    # f2d1f83ef979f2ef23b7b30cc53ed3c7
 
     headers = {"Content-Type": "application/x-www-form-urlencoded"}
     response = requests.post(TOKEN_URL, data=token_data, headers=headers)
@@ -70,9 +70,7 @@ def callback():
         tokens = response.json()
         session["access_token"] = tokens["access_token"]
         session["refresh_token"] = tokens.get("refresh_token", "")
-        print(tokens)
-        with open("creds.json", "w") as file:
-            json.dump(tokens, file, indent=4)
+
         return redirect(url_for("get_jobs"))
     else:
         return f"Failed to get access token: {response.json()}"
