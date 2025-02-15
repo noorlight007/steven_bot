@@ -86,7 +86,7 @@ def callback():
                     print(str(e))
                     
                 try:
-                    applications_req = requests.get(f"{API_BASE_URL}/jobads/591229/applications", headers=headers)
+                    applications_req = requests.get(f"{API_BASE_URL}/jobads/591198/applications", headers=headers)
                     application_items = applications_req.json().get("items", [])
                     applications = applications_req.json()
                     with open(f"applications.json", "w") as file:
