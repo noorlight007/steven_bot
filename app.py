@@ -82,7 +82,7 @@ def callback():
                 
                 applications_req = requests.get(f"{API_BASE_URL}/jobads/{ad_id}/applications", headers=headers)
                 applications = applications_req.json()
-                with open(f"applications.json", "w+") as file:
+                with open(f"applications.json", "w") as file:
                     json.dump(applications, file, indent=4)
                 print(f"Working on , {title}")
             return {"status": "success"}
