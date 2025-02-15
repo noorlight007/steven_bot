@@ -64,7 +64,9 @@ def callback():
         session["access_token"] = tokens["access_token"]
         session["refresh_token"] = tokens.get("refresh_token", "")
 
-        return redirect(url_for("get_jobs"))
+        headers = {"Authorization": f"Bearer {request.session['access_token']}"}
+        live_jobs = requests.get(f"{API_BASE_URL}/jobads?status=current&offset=0&limit=50", headers=headers)
+        return json.dumps(live_jobs.json())
     else:
         return f"Failed to get access token: {response.json()}"
 
@@ -82,6 +84,8 @@ def get_jobs():
         return render_template("jobs.html", jobs=jobs)
     else:
         return f"Failed to fetch jobs: {response.json()}"
+    
+
 
 @app.route("/logout")
 def logout():
