@@ -27,7 +27,7 @@ def home():
 @app.route("/privacy")
 def privacy():
     """Home page with login link"""
-    return render_template("home.html")
+    return render_template("privacy.html")
 
 @app.route("/login")
 def login():
