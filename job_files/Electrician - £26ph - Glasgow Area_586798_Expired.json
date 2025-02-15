@@ -1,0 +1,211 @@
+{
+    "adId": 586798,
+    "state": "Expired",
+    "title": "Electrician - \u00a326ph - Glasgow Area",
+    "reference": "LMELE2401",
+    "summary": "Recruitment Direct UK Ltd is a premier recruiter operating across the UK and we act for our client operating across Scotland.",
+    "bulletPoints": [
+        "Enhanced Disclosure must be obtained prior to start.",
+        "Pay rate is \u00a326 per hour (CIS Registered)",
+        "Long term contract that will lead to optional permanent position."
+    ],
+    "description": "Are you an experienced&nbsp;<strong>Electrician?</strong><br>&nbsp;<br>Are you interested in an opportunity in&nbsp;<strong>Glasgow?</strong><br>&nbsp;<br>Recruitment Direct UK Ltd is a premier recruiter operating across the UK and we act for our client operating across Scotland.<br> <ul> <li>Long term contract that will lead to optional permanent position.</li> <li>This will predominantly be a Monday to Friday dayshift position.</li> <li>NVQ3 /SVQ3 Certificate or City &amp; Guilds in Electrical Installation or equivalent required</li> <li>18th Edition Wiring Regulation</li> <li>UK Driving License required</li> <li>Pay rate is &pound;26 per hour (CIS Registered)</li> <li>Enhanced Disclosure must be obtained prior to start.</li> </ul> <br>INDCON",
+    "job": {
+        "jobId": 1073165,
+        "jobTitle": "Electrician",
+        "location": {
+            "locationId": 8352,
+            "name": "Scotland-Glasgow City"
+        },
+        "company": {
+            "companyId": 2010859,
+            "name": "Scottish Prison Service Head Office",
+            "status": {
+                "statusId": 522,
+                "name": "Active client",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1359,
+                "firstName": "Debbie",
+                "lastName": "Martiin",
+                "email": "debbie@rd1.co.uk",
+                "mobile": "07947221915",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/users/1359"
+                }
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/companies/2010859",
+                "logo": "https://eu3api.jobadder.com/v2/companies/2010859/logo",
+                "mainContact": "https://eu3api.jobadder.com/v2/contacts/10412482"
+            }
+        },
+        "contact": {
+            "contactId": 13564375,
+            "firstName": "Elaine",
+            "lastName": "Thorburn",
+            "position": "Maintenance Services Business Support Officer (West)",
+            "unsubscribed": false,
+            "email": "Elaine.Thorburn@prisons.gov.scot",
+            "status": {
+                "statusId": 234,
+                "name": "Active contact",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626"
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/contacts/13564375",
+                "company": "https://eu3api.jobadder.com/v2/companies/2010859"
+            }
+        },
+        "status": {
+            "statusId": 804,
+            "name": "Filled by us",
+            "active": false
+        },
+        "source": "Existing client",
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/jobs/1073165"
+        }
+    },
+    "company": {
+        "companyId": 2010859,
+        "name": "Scottish Prison Service Head Office",
+        "status": {
+            "statusId": 522,
+            "name": "Active client",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1359,
+            "firstName": "Debbie",
+            "lastName": "Martiin",
+            "email": "debbie@rd1.co.uk",
+            "mobile": "07947221915",
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/users/1359"
+            }
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/companies/2010859",
+            "logo": "https://eu3api.jobadder.com/v2/companies/2010859/logo",
+            "mainContact": "https://eu3api.jobadder.com/v2/contacts/10412482"
+        }
+    },
+    "contact": {
+        "contactId": 13564375,
+        "firstName": "Elaine",
+        "lastName": "Thorburn",
+        "position": "Maintenance Services Business Support Officer (West)",
+        "unsubscribed": false,
+        "email": "Elaine.Thorburn@prisons.gov.scot",
+        "status": {
+            "statusId": 234,
+            "name": "Active contact",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/contacts/13564375",
+            "company": "https://eu3api.jobadder.com/v2/companies/2010859"
+        }
+    },
+    "jobBoards": [
+        {
+            "boardId": 369,
+            "name": "Indeed",
+            "reference": "llhmugg6aaautatxi2zle5pix4"
+        },
+        {
+            "boardId": 436,
+            "name": "linkedin.com(1)",
+            "reference": "u3i47vz2tcfezkuzisunkzldfq"
+        },
+        {
+            "boardId": 460,
+            "name": "Recruitment Direct - CareersPage",
+            "reference": "3whqhdcnf25evewe3ff3yd7q3m"
+        }
+    ],
+    "otherApplyUrls": [
+        {
+            "name": "LinkedIn",
+            "url": "https://adr.to/otpgkai"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://adr.to/oxpgkai"
+        },
+        {
+            "name": "Facebook",
+            "url": "https://adr.to/o3pgkai"
+        },
+        {
+            "name": "Indeed",
+            "url": "https://adr.to/o7pgkai"
+        }
+    ],
+    "owner": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626",
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/users/1358"
+        }
+    },
+    "createdBy": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626"
+    },
+    "createdAt": "2025-01-24T14:08:18Z",
+    "postAt": "2025-01-24T14:08:23Z",
+    "expireAt": "2025-01-31T15:40:22Z",
+    "links": {
+        "self": "https://eu3api.jobadder.com/v2/jobads/586798",
+        "applications": "https://eu3api.jobadder.com/v2/jobads/586798/applications"
+    }
+}

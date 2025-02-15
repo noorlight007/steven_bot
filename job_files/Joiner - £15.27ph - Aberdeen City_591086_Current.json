@@ -1,0 +1,215 @@
+{
+    "adId": 591086,
+    "state": "Current",
+    "title": "Joiner - \u00a315.27ph - Aberdeen City",
+    "reference": "JOIACC1402",
+    "summary": "Joiners Required, Immediate Start",
+    "bulletPoints": [
+        "Level 3 SVQ/NVQ or C&G in Joinery/Carpentry",
+        "Full UK Drivers Licence",
+        "Monday to Friday"
+    ],
+    "description": "Are you an experienced&nbsp;<strong>Joiner?<br><br></strong>Are you interested in an opportunity in&nbsp;<strong>Aberdeen&nbsp;working with a Local authority?<br><br></strong>Recruitment Direct UK Ltd is a premier recruiter operating across the UK and we act for our client operating across Scotland in the Construction Industry.<br> <ul> <li>Long term contract that will lead to optional permanent position.</li> <li>This will predominantly be a Monday to Friday dayshift position.</li> <li>NVQ3 /SVQ3 Certificate or City &amp; Guilds in Joinery required</li> <li>UK Driving License required, company van maybe available further into the contract</li> <li>Pay rate is &pound;15.27 per hour</li> </ul> <br><br>INDCON",
+    "job": {
+        "jobId": 944937,
+        "jobTitle": "Joiner",
+        "location": {
+            "locationId": 8338,
+            "name": "Scotland-Aberdeen City"
+        },
+        "company": {
+            "companyId": 121837,
+            "name": "Aberdeen City Council Head office",
+            "status": {
+                "statusId": 522,
+                "name": "Active client",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/users/1358"
+                }
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/companies/121837",
+                "logo": "https://eu3api.jobadder.com/v2/companies/121837/logo",
+                "mainContact": "https://eu3api.jobadder.com/v2/contacts/10412385"
+            }
+        },
+        "contact": {
+            "contactId": 540089,
+            "firstName": "Ewan",
+            "lastName": "Fyffe",
+            "position": "Transaction Services Administrator",
+            "unsubscribed": false,
+            "email": "EwaFyffe@aberdeencity.gov.uk",
+            "phone": "01224 548778",
+            "status": {
+                "statusId": 234,
+                "name": "Active contact",
+                "active": true,
+                "default": true
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626"
+            },
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/contacts/540089",
+                "company": "https://eu3api.jobadder.com/v2/companies/121837"
+            }
+        },
+        "status": {
+            "statusId": 803,
+            "name": "Open",
+            "active": true,
+            "default": true
+        },
+        "source": "Existing client",
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/jobs/944937"
+        }
+    },
+    "company": {
+        "companyId": 121837,
+        "name": "Aberdeen City Council Head office",
+        "status": {
+            "statusId": 522,
+            "name": "Active client",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626",
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/users/1358"
+            }
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/companies/121837",
+            "logo": "https://eu3api.jobadder.com/v2/companies/121837/logo",
+            "mainContact": "https://eu3api.jobadder.com/v2/contacts/10412385"
+        }
+    },
+    "contact": {
+        "contactId": 540089,
+        "firstName": "Ewan",
+        "lastName": "Fyffe",
+        "position": "Transaction Services Administrator",
+        "unsubscribed": false,
+        "email": "EwaFyffe@aberdeencity.gov.uk",
+        "phone": "01224 548778",
+        "status": {
+            "statusId": 234,
+            "name": "Active contact",
+            "active": true,
+            "default": true
+        },
+        "owner": {
+            "userId": 1358,
+            "firstName": "Nicola",
+            "lastName": "Barbour",
+            "position": "Construction Manager",
+            "jobTitle": "Construction Manager",
+            "email": "nicola@rd1.co.uk",
+            "phone": "01324 613198",
+            "mobile": "07590882626"
+        },
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/contacts/540089",
+            "company": "https://eu3api.jobadder.com/v2/companies/121837"
+        }
+    },
+    "jobBoards": [
+        {
+            "boardId": 369,
+            "name": "Indeed",
+            "reference": "llhmugg6aaautatxi2zle5pix4"
+        },
+        {
+            "boardId": 460,
+            "name": "Recruitment Direct - CareersPage",
+            "reference": "3whqhdcnf25evewe3ff3yd7q3m"
+        }
+    ],
+    "otherApplyUrls": [
+        {
+            "name": "LinkedIn",
+            "url": "https://adr.to/pgtgqai"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://adr.to/pktgqai"
+        },
+        {
+            "name": "Facebook",
+            "url": "https://adr.to/potgqai"
+        },
+        {
+            "name": "Indeed",
+            "url": "https://adr.to/pstgqai"
+        }
+    ],
+    "owner": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626",
+        "links": {
+            "self": "https://eu3api.jobadder.com/v2/users/1358"
+        }
+    },
+    "createdBy": {
+        "userId": 1358,
+        "firstName": "Nicola",
+        "lastName": "Barbour",
+        "position": "Construction Manager",
+        "jobTitle": "Construction Manager",
+        "email": "nicola@rd1.co.uk",
+        "phone": "01324 613198",
+        "mobile": "07590882626"
+    },
+    "createdAt": "2025-02-14T11:14:16Z",
+    "postAt": "2025-02-14T11:14:21Z",
+    "expireAt": "2025-03-14T11:14:00Z",
+    "links": {
+        "self": "https://eu3api.jobadder.com/v2/jobads/591086",
+        "applications": "https://eu3api.jobadder.com/v2/jobads/591086/applications"
+    }
+}
