@@ -66,9 +66,19 @@ def callback():
 
         headers = {"Authorization": f"Bearer {session['access_token']}"}
         live_jobs = requests.get(f"{API_BASE_URL}/jobads?status=current&offset=0&limit=50", headers=headers)
+        items = live_jobs.json().get("items", [])
         if live_jobs.status_code == 200:
             with open("live_jobs.json", "w") as file:
                 json.dump(live_jobs.json(), file, indent=4)
+
+            for item in items:
+                ad_id = item.get("adId")
+                state = item.get("state")
+                title = item.get("title")
+                job_details = requests.get(f"{API_BASE_URL}/jobads/{ad_id}", headers=headers)
+                job_details = job_details.json()
+                with open(f"{title}_{ad_id}_{state}.json", "w") as file:
+                    json.dump(live_jobs.json(), file, indent=4)
             return {"status": "success"}
         else:
             return {"status": "failed"}
