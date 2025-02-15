@@ -46,13 +46,6 @@ def login():
 @app.route("/callback")
 def callback():
     """Handle OAuth callback and exchange code for access token"""
-    if "error" in request.args:
-        return f"Error: {request.args['error']}"
-
-    if "code" not in request.args:
-        return "No code received from JobAdder"
-
-    auth_code = request.args["code"]
 
     # Exchange authorization code for access token
     token_data = {
