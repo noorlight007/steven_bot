@@ -77,7 +77,7 @@ def callback():
                 title = item.get("title")
                 job_details_req = requests.get(f"{API_BASE_URL}/jobads/{ad_id}", headers=headers)
                 job_details = job_details_req.json()
-                with open(f"{title}_{ad_id}_{state}.json", "w+") as file:
+                with open(f"{title.replace("/", "")}_{ad_id}_{state}.json", "w+") as file:
                     json.dump(job_details, file, indent=4)
             return {"status": "success"}
         else:
