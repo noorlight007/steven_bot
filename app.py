@@ -8,7 +8,7 @@ app.secret_key = "yejeyje4h5trn41dty4mnj8dt"  # Change this to a secure random k
 # JobAdder API credentials
 CLIENT_ID = "vdcmxl3ipmyupaybeylbr2ojiy"
 CLIENT_SECRET = "t3tl43dm573ufmtf3h3bnbdl4qtmpluiby26xehba4irdvdtjqnm"
-REDIRECT_URI = "http://127.0.0.1:5000/callback"  # Change this if deployed
+REDIRECT_URI = "http://127.0.0.1:8000/callback"  # Change this if deployed
 
 # JobAdder endpoints
 AUTH_URL = "https://id.jobadder.com/connect/authorize"
@@ -94,4 +94,4 @@ def logout():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=8000)
