@@ -2,7 +2,7 @@
     "items": [
         {
             "adId": 591229,
-            "state": "Current",
+            "state": "Expired",
             "title": "Labourer - \u00a313.00ph - Alloa",
             "reference": "GOLAB1402",
             "summary": "Recruitment Direct UK Ltd is looking for an experienced Labourer to assist with Maintenance and Repair work",
@@ -22,7 +22,7 @@
                 "mobile": "07590882626"
             },
             "postAt": "2025-02-14T16:39:18Z",
-            "expireAt": "2025-03-16T16:39:00Z",
+            "expireAt": "2025-02-15T17:34:57Z",
             "links": {
                 "self": "https://eu3api.jobadder.com/v2/jobads/591229",
                 "applications": "https://eu3api.jobadder.com/v2/jobads/591229/applications"
