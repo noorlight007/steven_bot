@@ -70,12 +70,12 @@ def callback():
         tokens = response.json()
         session["access_token"] = tokens["access_token"]
         session["refresh_token"] = tokens.get("refresh_token", "")
+        print(tokens)
         with open("creds.json", "w") as file:
             json.dump(tokens, file, indent=4)
         return redirect(url_for("get_jobs"))
     else:
         return f"Failed to get access token: {response.json()}"
-
 
 @app.route("/jobs")
 def get_jobs():
