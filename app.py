@@ -64,7 +64,7 @@ def callback():
         session["access_token"] = tokens["access_token"]
         session["refresh_token"] = tokens.get("refresh_token", "")
 
-        headers = {"Authorization": f"Bearer {request.session['access_token']}"}
+        headers = {"Authorization": f"Bearer {session['access_token']}"}
         live_jobs = requests.get(f"{API_BASE_URL}/jobads?status=current&offset=0&limit=50", headers=headers)
         return json.dumps(live_jobs.json())
     else:
