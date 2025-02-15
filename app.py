@@ -24,6 +24,10 @@ def home():
     """Home page with login link"""
     return render_template("home.html")
 
+@app.route("/privacy")
+def privacy():
+    """Home page with login link"""
+    return render_template("home.html")
 
 @app.route("/login")
 def login():
