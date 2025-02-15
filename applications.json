@@ -1,59 +1,57 @@
 {
     "items": [
         {
-            "applicationId": 8540600,
-            "jobTitle": "Maintenance Plumber (x2) - \u00a322ph - Greenock",
-            "jobReference": "GHMPP2401",
-            "source": "indeed.com",
+            "applicationId": 8761276,
+            "jobTitle": "Labourer - \u00a313.00ph - Alloa",
+            "jobReference": "GOLAB1402",
+            "source": "Recruitment Direct",
             "status": {
-                "statusId": 2109,
-                "name": "Unsuccessful -  No Skills/Experience",
-                "active": false,
-                "rejected": true
+                "statusId": 2097,
+                "name": "Applied",
+                "active": true,
+                "default": true,
+                "workflow": {
+                    "stage": "New",
+                    "stageIndex": 1,
+                    "step": 1
+                }
             },
             "candidate": {
-                "candidateId": 14666873,
-                "firstName": "SUNDAY",
-                "lastName": " OKE",
-                "email": "okesteve20@gmail.com",
-                "phone": "+44 7429 144424",
-                "mobile": "07429144424",
+                "candidateId": 15150051,
+                "firstName": "Kayde",
+                "lastName": "Murray",
+                "email": "rm7240579@gmail.com",
+                "mobile": "07572060177",
                 "unsubscribed": false,
                 "address": {
-                    "street": [
-                        "17 Sandhaven Gardens"
-                    ],
-                    "city": "East kilbride",
-                    "state": "Glasgow",
-                    "postalCode": "G75 9PH",
-                    "country": "United Kingdom",
-                    "countryCode": "GB",
-                    "postcode": "G75 9PH"
+                    "city": "Alloa",
+                    "postalCode": "FK10 1DF",
+                    "postcode": "FK10 1DF"
                 },
                 "links": {
-                    "self": "https://eu3api.jobadder.com/v2/candidates/14666873"
+                    "self": "https://eu3api.jobadder.com/v2/candidates/15150051"
                 }
             },
             "job": {
-                "jobId": 1132880,
-                "jobTitle": "Maintenance Plumber (x2)",
+                "jobId": 1153541,
+                "jobTitle": "Labourer",
                 "links": {
-                    "self": "https://eu3api.jobadder.com/v2/jobs/1132880",
+                    "self": "https://eu3api.jobadder.com/v2/jobs/1153541",
                     "company": "https://eu3api.jobadder.com/v2/companies/2010859",
-                    "contact": "https://eu3api.jobadder.com/v2/contacts/10581298"
+                    "contact": "https://eu3api.jobadder.com/v2/contacts/10580004"
                 }
             },
             "jobAd": {
-                "adId": 586795,
-                "state": "Expired",
-                "title": "Maintenance Plumber (x2) - \u00a322ph - Greenock",
-                "reference": "GHMPP2401",
+                "adId": 591229,
+                "state": "Current",
+                "title": "Labourer - \u00a313.00ph - Alloa",
+                "reference": "GOLAB1402",
                 "bulletPoints": [],
-                "postAt": "2025-01-24T14:06:21Z",
-                "expireAt": "2025-01-27T08:22:35Z",
+                "postAt": "2025-02-14T16:39:18Z",
+                "expireAt": "2025-03-16T16:39:00Z",
                 "links": {
-                    "self": "https://eu3api.jobadder.com/v2/jobads/586795",
-                    "applications": "https://eu3api.jobadder.com/v2/jobads/586795/applications"
+                    "self": "https://eu3api.jobadder.com/v2/jobads/591229",
+                    "applications": "https://eu3api.jobadder.com/v2/jobads/591229/applications"
                 }
             },
             "owner": {
@@ -66,75 +64,8 @@
                 "phone": "01324 613198",
                 "mobile": "07590882626"
             },
-            "createdAt": "2025-01-25T20:20:35Z",
+            "createdAt": "2025-02-15T11:06:15Z",
             "updatedBy": {
-                "userId": 10485,
-                "firstName": "Steven",
-                "lastName": "Peddie",
-                "email": "steven@rd1.co.uk",
-                "phone": "01324 613198",
-                "mobile": "07590 882626"
-            },
-            "updatedAt": "2025-02-09T17:31:34Z",
-            "links": {
-                "self": "https://eu3api.jobadder.com/v2/applications/8540600",
-                "attachments": "https://eu3api.jobadder.com/v2/applications/8540600/attachments"
-            }
-        },
-        {
-            "applicationId": 8540567,
-            "jobTitle": "Maintenance Plumber (x2) - \u00a322ph - Greenock",
-            "jobReference": "GHMPP2401",
-            "source": "indeed.com",
-            "status": {
-                "statusId": 2109,
-                "name": "Unsuccessful -  No Skills/Experience",
-                "active": false,
-                "rejected": true
-            },
-            "candidate": {
-                "candidateId": 14666852,
-                "firstName": "John",
-                "lastName": " Reid",
-                "email": "johnkaireid@hotmail.com",
-                "phone": "+44 7785 765242",
-                "mobile": "07785765242",
-                "unsubscribed": false,
-                "address": {
-                    "street": [
-                        "110 Darg Road"
-                    ],
-                    "city": "Stevenston",
-                    "postalCode": "KA20 3AZ",
-                    "postcode": "KA20 3AZ"
-                },
-                "links": {
-                    "self": "https://eu3api.jobadder.com/v2/candidates/14666852"
-                }
-            },
-            "job": {
-                "jobId": 1132880,
-                "jobTitle": "Maintenance Plumber (x2)",
-                "links": {
-                    "self": "https://eu3api.jobadder.com/v2/jobs/1132880",
-                    "company": "https://eu3api.jobadder.com/v2/companies/2010859",
-                    "contact": "https://eu3api.jobadder.com/v2/contacts/10581298"
-                }
-            },
-            "jobAd": {
-                "adId": 586795,
-                "state": "Expired",
-                "title": "Maintenance Plumber (x2) - \u00a322ph - Greenock",
-                "reference": "GHMPP2401",
-                "bulletPoints": [],
-                "postAt": "2025-01-24T14:06:21Z",
-                "expireAt": "2025-01-27T08:22:35Z",
-                "links": {
-                    "self": "https://eu3api.jobadder.com/v2/jobads/586795",
-                    "applications": "https://eu3api.jobadder.com/v2/jobads/586795/applications"
-                }
-            },
-            "owner": {
                 "userId": 1358,
                 "firstName": "Nicola",
                 "lastName": "Barbour",
@@ -144,102 +75,15 @@
                 "phone": "01324 613198",
                 "mobile": "07590882626"
             },
-            "createdAt": "2025-01-25T20:05:09Z",
-            "updatedBy": {
-                "userId": 10485,
-                "firstName": "Steven",
-                "lastName": "Peddie",
-                "email": "steven@rd1.co.uk",
-                "phone": "01324 613198",
-                "mobile": "07590 882626"
-            },
-            "updatedAt": "2025-02-09T17:31:39Z",
+            "updatedAt": "2025-02-15T11:06:18Z",
             "links": {
-                "self": "https://eu3api.jobadder.com/v2/applications/8540567",
-                "attachments": "https://eu3api.jobadder.com/v2/applications/8540567/attachments"
-            }
-        },
-        {
-            "applicationId": 8538905,
-            "jobTitle": "Maintenance Plumber (x2) - \u00a322ph - Greenock",
-            "jobReference": "GHMPP2401",
-            "source": "indeed.com",
-            "status": {
-                "statusId": 2109,
-                "name": "Unsuccessful -  No Skills/Experience",
-                "active": false,
-                "rejected": true
-            },
-            "candidate": {
-                "candidateId": 14407757,
-                "firstName": "Graeme",
-                "lastName": "Napier",
-                "email": "graemenapier6@gmail.com",
-                "phone": "+44 7831 740851",
-                "mobile": "+44 7918 280597",
-                "unsubscribed": false,
-                "address": {
-                    "street": [
-                        "Plumber Multi tradesmen"
-                    ],
-                    "city": "Ardrossan",
-                    "postalCode": "KA22 8EG",
-                    "postcode": "KA22 8EG"
-                },
-                "links": {
-                    "self": "https://eu3api.jobadder.com/v2/candidates/14407757"
-                }
-            },
-            "job": {
-                "jobId": 1132880,
-                "jobTitle": "Maintenance Plumber (x2)",
-                "links": {
-                    "self": "https://eu3api.jobadder.com/v2/jobs/1132880",
-                    "company": "https://eu3api.jobadder.com/v2/companies/2010859",
-                    "contact": "https://eu3api.jobadder.com/v2/contacts/10581298"
-                }
-            },
-            "jobAd": {
-                "adId": 586795,
-                "state": "Expired",
-                "title": "Maintenance Plumber (x2) - \u00a322ph - Greenock",
-                "reference": "GHMPP2401",
-                "bulletPoints": [],
-                "postAt": "2025-01-24T14:06:21Z",
-                "expireAt": "2025-01-27T08:22:35Z",
-                "links": {
-                    "self": "https://eu3api.jobadder.com/v2/jobads/586795",
-                    "applications": "https://eu3api.jobadder.com/v2/jobads/586795/applications"
-                }
-            },
-            "owner": {
-                "userId": 1358,
-                "firstName": "Nicola",
-                "lastName": "Barbour",
-                "position": "Construction Manager",
-                "jobTitle": "Construction Manager",
-                "email": "nicola@rd1.co.uk",
-                "phone": "01324 613198",
-                "mobile": "07590882626"
-            },
-            "createdAt": "2025-01-25T09:28:48Z",
-            "updatedBy": {
-                "userId": 10485,
-                "firstName": "Steven",
-                "lastName": "Peddie",
-                "email": "steven@rd1.co.uk",
-                "phone": "01324 613198",
-                "mobile": "07590 882626"
-            },
-            "updatedAt": "2025-02-09T17:31:44Z",
-            "links": {
-                "self": "https://eu3api.jobadder.com/v2/applications/8538905",
-                "attachments": "https://eu3api.jobadder.com/v2/applications/8538905/attachments"
+                "self": "https://eu3api.jobadder.com/v2/applications/8761276",
+                "attachments": "https://eu3api.jobadder.com/v2/applications/8761276/attachments"
             }
         }
     ],
-    "totalCount": 3,
+    "totalCount": 1,
     "links": {
-        "first": "https://eu3api.jobadder.com/v2/applications?adId=586795"
+        "first": "https://eu3api.jobadder.com/v2/applications?adId=591229"
     }
 }
