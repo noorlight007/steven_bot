@@ -72,13 +72,19 @@ def callback():
                 json.dump(live_jobs.json(), file, indent=4)
 
             for item in items:
-                ad_id = item.get("adId")
-                state = item.get("state")
-                title = item.get("title")
-                job_details_req = requests.get(f"{API_BASE_URL}/jobads/{ad_id}", headers=headers)
-                job_details = job_details_req.json()
-                with open(f"job_files/{title.replace("/", "")}_{ad_id}_{state}.json", "w") as file:
-                    json.dump(job_details, file, indent=4)
+                try:
+                    ad_id = item.get("adId")
+                    state = item.get("state")
+                    title = item.get("title")
+                    job_details_req = requests.get(f"{API_BASE_URL}/jobads/{ad_id}", headers=headers)
+                    print(job_details_req.status_code)
+                    job_details = job_details_req.json()
+                    with open(f"job_files/{title.replace("/", "")}_{ad_id}_{state}.json", "w") as file:
+                        json.dump(job_details, file, indent=4)
+                except Exception as e:
+                    print(job_details_req.status_code)
+                    print(str(e))
+                    
                 
                 applications_req = requests.get(f"{API_BASE_URL}/jobads/{ad_id}/applications", headers=headers)
                 applications = applications_req.json()
