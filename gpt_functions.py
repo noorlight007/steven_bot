@@ -179,7 +179,7 @@ def initiate_interaction_marketing(user_message):
     my_thread = client.beta.threads.create(
         messages=[
             {
-            "role": "marketing message",
+            "role": "assistant",
             "content": user_message
             }
         ]
@@ -195,7 +195,7 @@ def sendNewMessage_to_existing_thread(thread_id,message):
 
 def sendNewMessage_to_existing_thread_marketing(thread_id,message):
     client = OpenAI(api_key=openAI_key)
-    thread_message = client.beta.threads.messages.create(thread_id, role= "marketing message", content = message)
+    thread_message = client.beta.threads.messages.create(thread_id, role= "assistant", content = message)
 
 
 # starting a thread
