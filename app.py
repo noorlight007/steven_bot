@@ -137,16 +137,8 @@ def get_job_details_al(job_id, application_id):
 
 
 
-@app.route("/callback")
-def callback():
-    # Parse JSON request data
-    data = request.get_json()
-    
-    if not data or "job_id" not in data or "application_id" not in data:
-        return jsonify({"success": False, "reason": "Missing job_id or application_id"}), 400
-
-    job_ad_id = data["job_id"]
-    application_id = data["application_id"]
+@app.route("/callback/<job_id>/<application_id>")
+def callback(job_id, application_id):
 
     #auth_code = request.args["code"]
 
@@ -182,7 +174,7 @@ def callback():
 
         if response.status_code == 200:
             try:
-                job_details_req = requests.get(f"{API_BASE_URL}/jobads/{job_ad_id}", headers=headers)
+                job_details_req = requests.get(f"{API_BASE_URL}/jobads/{job_id}", headers=headers)
                 print(job_details_req.json())
                 if job_details_req.status_code != 200:  # If job not found
                     return jsonify({"success": False, "reason": "Job_not_found"})
