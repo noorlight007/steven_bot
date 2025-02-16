@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 from gpt_functions import *
 import time
+sample_jon_id = "591198"
+sample_application_id = "8762438"
 
 # JobAdder API credentials
 CLIENT_ID = os.getenv('JOBADDER_CLIENT_ID')
@@ -27,20 +29,21 @@ def get_job_details(job_ad_id, applicantion_id):
 
     headers = {"Content-Type": "application/x-www-form-urlencoded"}
     response = requests.post(TOKEN_URL, data=token_data, headers=headers)
+    print(response.json())
 
     if response.status_code == 200:
         try:
-            job_details_req = requests.get(f"{API_BASE_URL}/jobads/{job_ad_id}", headers=headers)
+            job_details_req = requests.get(f"{API_BASE_URL}/jobads/{sample_jon_id}", headers=headers)
             if job_details_req.status_code != 200:  # If job not found
                 return {"success": False, "reason": "Job_not_found"}
-        except:
+        except Exception as e:
             return {"success": False, "reason": "Job_not_found"}
         
         try:
-            application_details = requests.get(f"{API_BASE_URL}/applications/{applicantion_id}", headers=headers)
+            application_details = requests.get(f"{API_BASE_URL}/applications/{sample_application_id}", headers=headers)
             if application_details.status_code != 200:
                 return {"success": False, "reason": "application_not_found"}
-        except:
+        except Exception as e:
             return {"success": False, "reason": "application_not_found"}
         
         job_title = job_details_req.json()['title']
@@ -147,3 +150,4 @@ If you want, confirm me now.'''
     return message.sid
 
 # print(send_twilio_message())
+print(get_job_details(sample_jon_id, sample_application_id))
