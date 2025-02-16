@@ -169,44 +169,54 @@ def callback():
         tokens = response.json()
         session["access_token"] = tokens["access_token"]
         session["refresh_token"] = tokens.get("refresh_token", "")
-        with open("creds.json", "w+") as file:
-                json.dump(tokens, file, indent=4)
+        headers = {"Content-Type": "application/x-www-form-urlencoded"}
+        response = requests.post(TOKEN_URL, data=token_data, headers=headers)
+        print(response.json())
 
-        # headers = {"Authorization": f"Bearer {session['access_token']}"}
-        # live_jobs = requests.get(f"{API_BASE_URL}/jobads?status=current&offset=0&limit=50", headers=headers)
-        # items = live_jobs.json().get("items", [])
-        # if live_jobs.status_code == 200:
-        #     with open("live_jobs.json", "w+") as file:
-        #         json.dump(live_jobs.json(), file, indent=4)
+        if response.status_code == 200:
+            try:
+                job_details_req = requests.get(f"{API_BASE_URL}/jobads/{job_id}", headers=headers)
+                print(job_details_req.json())
+                if job_details_req.status_code != 200:  # If job not found
+                    return jsonify({"success": False, "reason": "Job_not_found"})
+            except Exception as e:
+                return jsonify({"success": False, "reason": str(e)})
+            
+            try:
+                application_details = requests.get(f"{API_BASE_URL}/applications/{application_id}", headers=headers)
+                if application_details.status_code != 200:
+                    return jsonify({"success": False, "reason": "application_not_found"})
+            except Exception as e:
+                return jsonify({"success": False, "reason": str(e)})
+            
+            job_title = job_details_req.json()['title']
+            summary = job_details_req.json()['summary']
+            bulletPoints_list = job_details_req.json()['bulletPoints']
+            bulletPoints = []
+            for bulletPoint in bulletPoints_list:
+                bulletPoint_ex = bulletPoint
+                bulletPoints.append(bulletPoint_ex)
+            description = job_details_req.json()['description']
+            company_name = job_details_req.json()['company']['name']
+            current_application_status = application_details.json()['status']['name']  # CHAT GPT Contacted - No Reply
+            owner_name = job_details_req.json()['owner']['firstName'] + " " + job_details_req.json()['owner']['lastName']
+            owner_position = job_details_req.json()['owner']['position']
 
-        #     for item in items:
-        #         try:
-        #             ad_id = item.get("adId")
-        #             state = item.get("state")
-        #             title = item.get("title")
-        #             job_details_req = requests.get(f"{API_BASE_URL}/jobads/{ad_id}", headers=headers)
-        #             print(job_details_req.status_code)
-        #             # job_details = job_details_req.json()
-        #             # with open(f"job_files/{title.replace("/", "")}_{ad_id}_{state}.json", "w") as file:
-        #             #     json.dump(job_details, file, indent=4)
-        #         except Exception as e:
-        #             print(job_details_req.status_code)
-        #             print(str(e))
-                    
-        #         try:
-        #             applications_req = requests.get(f"{API_BASE_URL}/jobads/591198/applications", headers=headers)
-        #             application_items = applications_req.json().get("items", [])
-        #             applications = applications_req.json()
-        #             with open(f"applications.json", "w") as file:
-        #                 json.dump(applications, file, indent=4)
-        #         except Exception as e:
-        #             print(applications_req.status_code)
-        #             print(str(e))
-        #         print(f"Working on , {title}")
-        #     return {"status": "success"}
-        # else:
-        #     return {"status": "failed"}
-        return {"status": "success"}
+            job_details = {
+                "job title": job_title,
+                "summary": summary,
+                "bulletPoints": bulletPoints,
+                "description": description,
+                "company name": company_name,
+                "current application status": current_application_status,
+                "owner name": owner_name,
+                "owner position": owner_position
+            }
+
+            return jsonify({"success": True, "job_details": job_details})
+        
+        return jsonify({"success": False, "reason": "system_error"})
+
     else:
         return f"Failed to get access token: {response.json()}"
 
