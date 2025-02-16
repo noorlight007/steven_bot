@@ -7,5 +7,5 @@ data = {
     "job_id": "591198",
     "application_id": "8762438"
 }
-response = requests.post("https://chatbot.rd1.co.uk/get_job_details", json=data)
+response = requests.post("https://chatbot.rd1.co.uk/callback", json=data)
 print(response.json())
