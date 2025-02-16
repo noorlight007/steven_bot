@@ -24,7 +24,7 @@ TOKEN_URL = "https://id.jobadder.com/connect/token"
 API_BASE_URL = "https://api.jobadder.com/v2"
 
 # Scopes needed (adjust based on needs)
-SCOPES = "read write read_job offline_access"
+SCOPES = "read write offline_access"
 
 account_sid = os.getenv('ACCOUNT_SID')
 auth_token = os.getenv('AUTH_TOKEN')
@@ -39,12 +39,12 @@ ASSISTANT_ID = "asst_jGpzZ6calAdRADZYePwBer89"
 @app.route("/")
 def home():
 
-    data = {
-        "job_id": "591198",
-        "application_id": "8762438"
-    }
-    response = requests.post("/get_job_details", json=data)
-    print(response.json())
+    # data = {
+    #     "job_id": "591198",
+    #     "application_id": "8762438"
+    # }
+    # response = requests.post("https://chatbot.rd1.co.uk/get_job_details", json=data)
+    # print(response.json())
     """Home page with login link"""
     return render_template("home.html")
 
@@ -139,14 +139,30 @@ def get_job_details_al():
 
 @app.route("/callback")
 def callback():
+    if "error" in request.GET:
+        return f"Error: {request.GET['error']}"
+
+    if "code" not in request.GET:
+        return "No code received from JobAdder"
+
+    auth_code = request.GET["code"]
+
     """Handle OAuth callback and exchange code for access token"""
 
     # Exchange authorization code for access token
+    # token_data = {
+    #     "client_id": CLIENT_ID,
+    #     "client_secret": CLIENT_SECRET,
+    #     "grant_type": "refresh_token",
+    #     "refresh_token": "f2d1f83ef979f2ef23b7b30cc53ed3c7"
+    # }
+
     token_data = {
         "client_id": CLIENT_ID,
         "client_secret": CLIENT_SECRET,
-        "grant_type": "refresh_token",
-        "refresh_token": "f2d1f83ef979f2ef23b7b30cc53ed3c7"
+        "grant_type": "authorization_code",
+        "code": auth_code,
+        "redirect_uri": REDIRECT_URI
     }
     # f2d1f83ef979f2ef23b7b30cc53ed3c7
 
@@ -157,41 +173,44 @@ def callback():
         tokens = response.json()
         session["access_token"] = tokens["access_token"]
         session["refresh_token"] = tokens.get("refresh_token", "")
+        with open("creds.json", "w+") as file:
+                json.dump(tokens, file, indent=4)
 
-        headers = {"Authorization": f"Bearer {session['access_token']}"}
-        live_jobs = requests.get(f"{API_BASE_URL}/jobads?status=current&offset=0&limit=50", headers=headers)
-        items = live_jobs.json().get("items", [])
-        if live_jobs.status_code == 200:
-            with open("live_jobs.json", "w+") as file:
-                json.dump(live_jobs.json(), file, indent=4)
+        # headers = {"Authorization": f"Bearer {session['access_token']}"}
+        # live_jobs = requests.get(f"{API_BASE_URL}/jobads?status=current&offset=0&limit=50", headers=headers)
+        # items = live_jobs.json().get("items", [])
+        # if live_jobs.status_code == 200:
+        #     with open("live_jobs.json", "w+") as file:
+        #         json.dump(live_jobs.json(), file, indent=4)
 
-            for item in items:
-                try:
-                    ad_id = item.get("adId")
-                    state = item.get("state")
-                    title = item.get("title")
-                    job_details_req = requests.get(f"{API_BASE_URL}/jobads/{ad_id}", headers=headers)
-                    print(job_details_req.status_code)
-                    # job_details = job_details_req.json()
-                    # with open(f"job_files/{title.replace("/", "")}_{ad_id}_{state}.json", "w") as file:
-                    #     json.dump(job_details, file, indent=4)
-                except Exception as e:
-                    print(job_details_req.status_code)
-                    print(str(e))
+        #     for item in items:
+        #         try:
+        #             ad_id = item.get("adId")
+        #             state = item.get("state")
+        #             title = item.get("title")
+        #             job_details_req = requests.get(f"{API_BASE_URL}/jobads/{ad_id}", headers=headers)
+        #             print(job_details_req.status_code)
+        #             # job_details = job_details_req.json()
+        #             # with open(f"job_files/{title.replace("/", "")}_{ad_id}_{state}.json", "w") as file:
+        #             #     json.dump(job_details, file, indent=4)
+        #         except Exception as e:
+        #             print(job_details_req.status_code)
+        #             print(str(e))
                     
-                try:
-                    applications_req = requests.get(f"{API_BASE_URL}/jobads/591198/applications", headers=headers)
-                    application_items = applications_req.json().get("items", [])
-                    applications = applications_req.json()
-                    with open(f"applications.json", "w") as file:
-                        json.dump(applications, file, indent=4)
-                except Exception as e:
-                    print(applications_req.status_code)
-                    print(str(e))
-                print(f"Working on , {title}")
-            return {"status": "success"}
-        else:
-            return {"status": "failed"}
+        #         try:
+        #             applications_req = requests.get(f"{API_BASE_URL}/jobads/591198/applications", headers=headers)
+        #             application_items = applications_req.json().get("items", [])
+        #             applications = applications_req.json()
+        #             with open(f"applications.json", "w") as file:
+        #                 json.dump(applications, file, indent=4)
+        #         except Exception as e:
+        #             print(applications_req.status_code)
+        #             print(str(e))
+        #         print(f"Working on , {title}")
+        #     return {"status": "success"}
+        # else:
+        #     return {"status": "failed"}
+        return {"status": "success"}
     else:
         return f"Failed to get access token: {response.json()}"
 
