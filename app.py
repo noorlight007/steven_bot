@@ -137,10 +137,11 @@ def get_job_details_al(job_id, application_id):
 
 
 
-@app.route("/callback/<job_id>/<application_id>")
+@app.route("/callback")
 def callback(job_id, application_id):
 
-    #auth_code = request.args["code"]
+    job_id = request.args["job_id"]
+    application_id = request.args["application_id"]
 
     """Handle OAuth callback and exchange code for access token"""
 
