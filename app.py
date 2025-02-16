@@ -169,7 +169,11 @@ def whatsapp():
     openai_client = OpenAI(api_key=openAI_key)
 
     if session["user"]["thread_id"]:  # If user has an existing thread
-        sendNewMessage_to_existing_thread(session["user"]["thread_id"], message)
+        try:
+            sendNewMessage_to_existing_thread(session["user"]["thread_id"], message)
+        except Exception as e:
+            deleteRun(session["user"]["thread_id"])
+            sendNewMessage_to_existing_thread(session["user"]["thread_id"], message)
 
     else:   # If user does not have an existing thread
         my_thread_id = initiate_interaction(message)

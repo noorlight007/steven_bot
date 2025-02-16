@@ -155,6 +155,19 @@ def runAssistant(thread_id, asssitant_id):
     run = client.beta.threads.runs.create(thread_id = thread_id, assistant_id = asssitant_id)
     return run
 
+def deleteRun(thread_id):
+    client = OpenAI(api_key=openAI_key)
+    runs = client.beta.threads.runs.list(thread_id)
+    # Check if there are any runs
+    if runs and runs.data:
+        last_run = runs.data[0]  # Assuming the first one is the latest
+        last_run_id = last_run.id
+        
+        # Cancel the last run
+        client.beta.threads.runs.cancel(run_id=last_run_id)
+        
+        return f"Last run {last_run_id} has been canceled."
+
 
 def sendNewMessage(thread_id,prompt):
     client = OpenAI(api_key=openAI_key)
