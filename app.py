@@ -93,6 +93,8 @@ def get_job_details_al(job_id, application_id):
 
     if response.status_code == 200:
         try:
+            tokens = response.json()
+            headers = {"Authorization": f"Bearer {tokens["access_token"]}"}
             job_details_req = requests.get(f"{API_BASE_URL}/jobads/{job_id}", headers=headers)
             print(job_details_req.json())
             if job_details_req.status_code != 200:  # If job not found
