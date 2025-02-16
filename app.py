@@ -67,7 +67,7 @@ def login():
     return redirect(auth_redirect_url)
 
 @app.route("/get_job_details", methods=["POST"])
-def get_job_details_ala():
+def get_job_details_al():
     # Parse JSON request data
     data = request.get_json()
     
