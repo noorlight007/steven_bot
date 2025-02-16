@@ -37,14 +37,14 @@ def get_job_details(job_ad_id, applicantion_id):
             if job_details_req.status_code != 200:  # If job not found
                 return {"success": False, "reason": "Job_not_found"}
         except Exception as e:
-            return {"success": False, "reason": "Job_not_found"}
+            return {"success": False, "reason": str(e)}
         
         try:
             application_details = requests.get(f"{API_BASE_URL}/applications/{sample_application_id}", headers=headers)
             if application_details.status_code != 200:
                 return {"success": False, "reason": "application_not_found"}
         except Exception as e:
-            return {"success": False, "reason": "application_not_found"}
+            return {"success": False, "reason": str(e)}
         
         job_title = job_details_req.json()['title']
         summary = job_details_req.json()['summary']
