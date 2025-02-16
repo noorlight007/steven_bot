@@ -141,7 +141,7 @@ def get_job_details_al():
 def callback():
     
 
-    auth_code = request.GET["code"]
+    auth_code = request.args["code"]
 
     """Handle OAuth callback and exchange code for access token"""
 
