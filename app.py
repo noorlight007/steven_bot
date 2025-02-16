@@ -24,7 +24,7 @@ TOKEN_URL = "https://id.jobadder.com/connect/token"
 API_BASE_URL = "https://api.jobadder.com/v2"
 
 # Scopes needed (adjust based on needs)
-SCOPES ="read write read_candidate write_candidate"
+SCOPES ="read write read_candidate write_candidate read_candidate_note write_candidate_note manage_candidate_custom read_company write_company read_company_note write_company_note manage_company_custom read_jobad write_jobad read_jobapplication write_jobapplication read_jobapplication_note write_jobapplication_note manage_jobapplication_custom read_job write_job read_job_note write_job_note manage_job_custom read_note write_note offline_access"
 
 account_sid = os.getenv('ACCOUNT_SID')
 auth_token = os.getenv('AUTH_TOKEN')
