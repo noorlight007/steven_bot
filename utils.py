@@ -108,8 +108,8 @@ def update_application_status(applicantion_id, new_status):
 def send_twilio_message():
     from twilio.rest import Client
 
-    account_sid = os.getenv('TWILIO_ACCOUNT_SID')
-    auth_token = os.getenv('TWILIO_AUTH_TOKEN')
+    account_sid = os.getenv('ACCOUNT_SID')
+    auth_token = os.getenv('AUTH_TOKEN')
     messaging_service_sid = os.getenv('TWILIO_MESSAGING_SERVICE_SID')
     client = Client(account_sid, auth_token)
 
