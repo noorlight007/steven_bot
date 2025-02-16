@@ -5,8 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 from gpt_functions import *
 import time
-sample_jon_id = "591198"
-sample_application_id = "8762438"
+
 
 # JobAdder API credentials
 CLIENT_ID = os.getenv('JOBADDER_CLIENT_ID')
