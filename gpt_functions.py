@@ -32,7 +32,7 @@ def create_assistant(assistant_name, my_instruction):
         description= "You are a virtual assistant who is very talented in generating questions for a job interview. You will generate questions for a job interview based on the job description. You will also validate the applicant's answers of the questions that you will generate.",
         instructions = my_instruction,
         model="gpt-4",
-        temperature= 1.2,
+        temperature= 1.0,
         tools=[
                {
                 "type": "function",

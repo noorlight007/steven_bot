@@ -81,4 +81,5 @@ You can also execute the get_job_id function tool if you want to know the job de
 '''
 
 
-print(updateAssistantInstruction("asst_jGpzZ6calAdRADZYePwBer89", instruction))
+#print(updateAssistantInstruction("asst_jGpzZ6calAdRADZYePwBer89", instruction))
+print(create_assistant("Jobadder automation", instruction))

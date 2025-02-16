@@ -34,7 +34,7 @@ twilio_client = Client(account_sid, auth_token)
 
 openAI_key = os.getenv('OPENAI_API')
 
-ASSISTANT_ID = "asst_jGpzZ6calAdRADZYePwBer89"
+ASSISTANT_ID = "asst_T7qDNubH5qGhpDm9dlRJVFkt"
 
 @app.route("/")
 def home():
