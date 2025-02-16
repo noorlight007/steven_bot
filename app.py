@@ -141,25 +141,25 @@ def get_job_details_al(job_id, application_id):
 def callback():
     
 
-    auth_code = request.args["code"]
+    #auth_code = request.args["code"]
 
     """Handle OAuth callback and exchange code for access token"""
 
     # Exchange authorization code for access token
-    # token_data = {
-    #     "client_id": CLIENT_ID,
-    #     "client_secret": CLIENT_SECRET,
-    #     "grant_type": "refresh_token",
-    #     "refresh_token": "f2d1f83ef979f2ef23b7b30cc53ed3c7"
-    # }
-
     token_data = {
         "client_id": CLIENT_ID,
         "client_secret": CLIENT_SECRET,
-        "grant_type": "authorization_code",
-        "code": auth_code,
-        "redirect_uri": REDIRECT_URI
+        "grant_type": "refresh_token",
+        "refresh_token": "f52fb704a18729131bc1e4aace77d73e"
     }
+
+    # token_data = {
+    #     "client_id": CLIENT_ID,
+    #     "client_secret": CLIENT_SECRET,
+    #     "grant_type": "authorization_code",
+    #     "code": auth_code,
+    #     "redirect_uri": REDIRECT_URI
+    # }
     # f2d1f83ef979f2ef23b7b30cc53ed3c7
 
     headers = {"Content-Type": "application/x-www-form-urlencoded"}
