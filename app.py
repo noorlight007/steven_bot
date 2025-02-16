@@ -39,12 +39,12 @@ ASSISTANT_ID = "asst_jGpzZ6calAdRADZYePwBer89"
 @app.route("/")
 def home():
 
-    data = {
-        "job_id": "591198",
-        "application_id": "8762438"
-    }
-    response = requests.post("https://chatbot.rd1.co.uk/get_job_details", json=data)
-    print(response.json())
+    # data = {
+    #     "job_id": "591198",
+    #     "application_id": "8762438"
+    # }
+    # response = requests.post("https://chatbot.rd1.co.uk/get_job_details", json=data)
+    # print(response.json())
     """Home page with login link"""
     return render_template("home.html")
 
