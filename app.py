@@ -94,8 +94,8 @@ def get_job_details_al():
     
     if response.status_code == 200:
         tokens = response.json()
-        request.session["access_token"] = tokens["access_token"]
-        request.session["refresh_token"] = tokens.get("refresh_token", "")
+        session["access_token"] = tokens["access_token"]
+        session["refresh_token"] = tokens.get("refresh_token", "")
 
     # Exchange authorization code for access token
     # token_data = {
