@@ -140,8 +140,8 @@ def get_job_details_al(job_id, application_id):
 @app.route("/callback")
 def callback():
 
-    job_id = request.args["job_id"]
-    application_id = request.args["application_id"]
+    # job_id = request.args["job_id"]
+    # application_id = request.args["application_id"]
 
     """Handle OAuth callback and exchange code for access token"""
 
@@ -175,7 +175,7 @@ def callback():
 
         if response.status_code == 200:
             try:
-                job_details_req = requests.get(f"{API_BASE_URL}/jobads/{job_id}", headers=headers)
+                job_details_req = requests.get(f"{API_BASE_URL}/jobads/591198", headers=headers)
                 print(job_details_req.json())
                 if job_details_req.status_code != 200:  # If job not found
                     return jsonify({"success": False, "reason": "Job_not_found"})
@@ -183,7 +183,7 @@ def callback():
                 return jsonify({"success": False, "reason": str(e)})
             
             try:
-                application_details = requests.get(f"{API_BASE_URL}/applications/{application_id}", headers=headers)
+                application_details = requests.get(f"{API_BASE_URL}/applications/8762438", headers=headers)
                 if application_details.status_code != 200:
                     return jsonify({"success": False, "reason": "application_not_found"})
             except Exception as e:
