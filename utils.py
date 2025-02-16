@@ -119,11 +119,11 @@ def send_twilio_message():
         content_variables= json.dumps({"1": "Joiner - £20ph - Stirling",
                                        "2": "591198",
                                        "3": "8762438"}),
-        to='whatsapp:+8801571238110'
+        to='whatsapp:+8801301807991'
     )
     from db_users import create_new_contact, add_thread_id
     
-    user = create_new_contact("Noor", "+8801571238110")
+    user = create_new_contact("Noor", "+8801301807991")
 
     marketing_msg = '''This is a message from Jobadder platform.
 Recently you have applied to a job.
