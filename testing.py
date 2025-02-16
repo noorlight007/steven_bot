@@ -8,5 +8,5 @@ data = {
     "application_id": "8762438"
 }
 headers = {"Content-Type": "application/json"}
-response = requests.get("https://chatbot.rd1.co.uk/get_job_details", json=data ,headers= headers)
+response = requests.get("https://chatbot.rd1.co.uk/get_job_details?job_id=591198&application_id=8762438", headers= headers)
 print(response)
