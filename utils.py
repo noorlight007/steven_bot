@@ -138,10 +138,11 @@ If you want, confirm me now.'''
         user.save()
     else:
         sendNewMessage_to_existing_thread_marketing(user.thread_id, marketing_msg)
-        
+
     if message.error_code is None:
         print("Message sent successfully.")
     else:
         print(f"Failed to send message. Error: {message.error_message}")
     return message.sid
 
+print(send_twilio_message())
