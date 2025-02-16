@@ -55,6 +55,8 @@ def send_twilio_message():
                                        "3": "8762438"}),
         to='whatsapp:+8801571238110'
     )
+    headers = {"Content-Type": "application/json"}
+    response = requests.get(f"https://chatbot.rd1.co.uk/update_application_status?applicantion_id={sample_application_id}&new_status=sent_waiting", headers= headers)
     from db_users import create_new_contact, add_thread_id
     
     user = create_new_contact("Noor", "+8801571238110")
@@ -82,4 +84,4 @@ If you want, confirm me now.'''
 # print(send_twilio_message())
 # print(get_job_details(sample_job_id, sample_application_id))
 
-print(update_application_status(sample_application_id, "sent_waiting"))
+print(send_twilio_message())
