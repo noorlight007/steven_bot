@@ -208,7 +208,7 @@ def update_apps():
             data = {
                 "statusId": status_dict[new_status],  # Replace with the new status ID
             }
-            data_changes = requests.put(f"{API_BASE_URL}/applications/{applicantion_id}/status", json=data, headers=headers)
+            data_changes = requests.put(f"{API_BASE_URL}/applications/{applicantion_id}", json=data, headers=headers)
             # tokens = response.json()
             # job_details_req = requests.get(f"{API_BASE_URL}/jobads/{job_id}", headers=headers)
             # print(job_details_req.json())
