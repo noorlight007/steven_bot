@@ -180,6 +180,8 @@ def callback():
         print(response.json())
 
         if response.status_code == 200:
+            
+            headers = {"Authorization": f"Bearer {tokens["access_token"]}"}
             try:
                 job_details_req = requests.get(f"{API_BASE_URL}/jobads/591198", headers=headers)
                 print(job_details_req.json())
