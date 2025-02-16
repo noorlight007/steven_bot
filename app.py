@@ -38,7 +38,6 @@ ASSISTANT_ID = "asst_jGpzZ6calAdRADZYePwBer89"
 
 @app.route("/")
 def home():
-    session.clear()
     """Home page with login link"""
     return render_template("home.html")
 
