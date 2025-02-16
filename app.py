@@ -39,12 +39,12 @@ ASSISTANT_ID = "asst_jGpzZ6calAdRADZYePwBer89"
 @app.route("/")
 def home():
 
-    # data = {
-    #     "job_id": "591198",
-    #     "application_id": "8762438"
-    # }
-    # response = requests.post("https://chatbot.rd1.co.uk/get_job_details", json=data)
-    # print(response.json())
+    data = {
+        "job_id": "591198",
+        "application_id": "8762438"
+    }
+    response = requests.post("https://chatbot.rd1.co.uk/get_job_details", json=data)
+    print(response.json())
     """Home page with login link"""
     return render_template("home.html")
 
@@ -83,7 +83,7 @@ def get_job_details_al():
         "client_id": CLIENT_ID,
         "client_secret": CLIENT_SECRET,
         "grant_type": "refresh_token",
-        "refresh_token": "f2d1f83ef979f2ef23b7b30cc53ed3c7"
+        "refresh_token": "f52fb704a18729131bc1e4aace77d73e"
     }
     # f2d1f83ef979f2ef23b7b30cc53ed3c7
 
