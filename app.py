@@ -137,7 +137,7 @@ def get_job_details_ala():
 
 
 
-@app.route("/callback", method = 'POST')
+@app.route("/callback")
 def callback():
     """Handle OAuth callback and exchange code for access token"""
 
