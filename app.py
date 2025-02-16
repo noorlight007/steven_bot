@@ -59,6 +59,68 @@ def login():
     auth_redirect_url = f"{AUTH_URL}?{'&'.join(f'{k}={v}' for k, v in auth_params.items())}"
     return redirect(auth_redirect_url)
 
+@app.route("/get_job_details/<job_ad_id>/<applicantion_id>", methods=["GET"])
+def get_job_details(job_ad_id, applicantion_id):
+    """Handle OAuth callback and exchange code for access token"""
+
+    # Exchange authorization code for access token
+    token_data = {
+        "client_id": CLIENT_ID,
+        "client_secret": CLIENT_SECRET,
+        "grant_type": "refresh_token",
+        "refresh_token": "f2d1f83ef979f2ef23b7b30cc53ed3c7"
+    }
+    # f2d1f83ef979f2ef23b7b30cc53ed3c7
+
+    headers = {"Content-Type": "application/x-www-form-urlencoded"}
+    response = requests.post(TOKEN_URL, data=token_data, headers=headers)
+    print(response.json())
+
+    if response.status_code == 200:
+        try:
+            job_details_req = requests.get(f"{API_BASE_URL}/jobads/{job_ad_id}", headers=headers)
+            print(job_details_req.json())
+            if job_details_req.status_code != 200:  # If job not found
+                return {"success": False, "reason": "Job_not_found"}
+        except Exception as e:
+            return {"success": False, "reason": str(e)}
+        
+        try:
+            application_details = requests.get(f"{API_BASE_URL}/applications/{applicantion_id}", headers=headers)
+            if application_details.status_code != 200:
+                return {"success": False, "reason": "application_not_found"}
+        except Exception as e:
+            return {"success": False, "reason": str(e)}
+        
+        job_title = job_details_req.json()['title']
+        summary = job_details_req.json()['summary']
+        bulletPoints_list = job_details_req.json()['bulletPoints']
+        bulletPoints = []
+        for bulletPoint in bulletPoints_list:
+            bulletPoint_ex = bulletPoint
+            bulletPoints.append(bulletPoint_ex)
+        description = job_details_req.json()['description']
+        company_name = job_details_req.json()['company']['name']
+        current_application_status = application_details.json()['status']['name']  # CHAT GPT Contacted - No Reply
+        owner_name = job_details_req.json()['owner']['firstName'] + " " + job_details_req.json()['owner']['lastName']
+        owner_position = job_details_req.json()['owner']['position']
+
+        job_details = {
+            "job title": job_title,
+            "summary": summary,
+            "bulletPoints": bulletPoints,
+            "description": description,
+            "company name": company_name,
+            "current application status": current_application_status,
+            "owner name": owner_name,
+            "owner position": owner_position
+        }
+
+        return {"success": True, "job_details": job_details}
+    
+    return {"success": False, "reason": "system_error"}
+
+
 
 @app.route("/callback")
 def callback():
