@@ -24,7 +24,7 @@ TOKEN_URL = "https://id.jobadder.com/connect/token"
 API_BASE_URL = "https://api.jobadder.com/v2"
 
 # Scopes needed (adjust based on needs)
-SCOPES = "read write read_jobad read_jobapplication write_jobapplication read_jobapplication_note write_jobapplication_note manage_jobapplication_custom offline_access"
+SCOPES = "read write read_job write_job read_jobad write_jobad read_candidate write_candidate read_jobapplication write_jobapplication read_jobapplication_note write_jobapplication_note manage_jobapplication_custom offline_access"
 
 account_sid = os.getenv('ACCOUNT_SID')
 auth_token = os.getenv('AUTH_TOKEN')
@@ -141,25 +141,25 @@ def get_job_details_al(job_id, application_id):
 def callback():
 
     # job_id = request.args["job_id"]
-    # auth_code = request.args["code"]
+    auth_code = request.args["code"]
 
     """Handle OAuth callback and exchange code for access token"""
 
     # Exchange authorization code for access token
-    token_data = {
-        "client_id": CLIENT_ID,
-        "client_secret": CLIENT_SECRET,
-        "grant_type": "refresh_token",
-        "refresh_token": "7398f649ef7518bf647c9f4cd83a5a0c"
-    }
-
     # token_data = {
     #     "client_id": CLIENT_ID,
     #     "client_secret": CLIENT_SECRET,
-    #     "grant_type": "authorization_code",
-    #     "code": auth_code,
-    #     "redirect_uri": REDIRECT_URI
+    #     "grant_type": "refresh_token",
+    #     "refresh_token": "7398f649ef7518bf647c9f4cd83a5a0c"
     # }
+
+    token_data = {
+        "client_id": CLIENT_ID,
+        "client_secret": CLIENT_SECRET,
+        "grant_type": "authorization_code",
+        "code": auth_code,
+        "redirect_uri": REDIRECT_URI
+    }
     # f2d1f83ef979f2ef23b7b30cc53ed3c7
 
     headers = {"Content-Type": "application/x-www-form-urlencoded"}
@@ -222,7 +222,7 @@ def callback():
         return jsonify({"success": False, "reason": "system_error"})
 
     else:
-        return f"Failed to get access token: {response.json()}"
+        return jsonify({"success": False, "reason": "system_error"})
 
 @app.route("/jobs")
 def get_jobs():
