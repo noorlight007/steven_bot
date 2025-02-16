@@ -66,8 +66,8 @@ def login():
     auth_redirect_url = f"{AUTH_URL}?{'&'.join(f'{k}={v}' for k, v in auth_params.items())}"
     return redirect(auth_redirect_url)
 
-@app.route("/get_job_details/<job_id>/<application_id>", methods=["GET"])
-def get_job_details_al(job_id, application_id):
+@app.route("/get_job_details", methods=["GET"])
+def get_job_details_al():
     # Parse JSON request data
     # data = request.get_json()
     
@@ -78,23 +78,42 @@ def get_job_details_al(job_id, application_id):
     # application_id = data["application_id"]
     """Handle OAuth callback and exchange code for access token"""
 
-    # Exchange authorization code for access token
+    job_id = request.args["job_id"]
+    application_id = request.args["application_id"]
+
     token_data = {
         "client_id": CLIENT_ID,
         "client_secret": CLIENT_SECRET,
         "grant_type": "refresh_token",
-        "refresh_token": "f52fb704a18729131bc1e4aace77d73e"
+        "refresh_token": "f52fb704a18729131bc1e4aace77d73e",
     }
-    # f2d1f83ef979f2ef23b7b30cc53ed3c7
 
     headers = {"Content-Type": "application/x-www-form-urlencoded"}
     response = requests.post(TOKEN_URL, data=token_data, headers=headers)
-    print(response.json())
-
+    # Write JSON to a file with 4-space indentation
+    
     if response.status_code == 200:
+        tokens = response.json()
+        request.session["access_token"] = tokens["access_token"]
+        request.session["refresh_token"] = tokens.get("refresh_token", "")
+
+    # Exchange authorization code for access token
+    # token_data = {
+    #     "client_id": CLIENT_ID,
+    #     "client_secret": CLIENT_SECRET,
+    #     "grant_type": "refresh_token",
+    #     "refresh_token": "f52fb704a18729131bc1e4aace77d73e"
+    # }
+    # f2d1f83ef979f2ef23b7b30cc53ed3c7
+
+    # headers = {"Content-Type": "application/x-www-form-urlencoded"}
+    # response = requests.post(TOKEN_URL, data=token_data, headers=headers)
+    # print(response.json())
+
+    # if response.status_code == 200:
+        headers = {"Authorization": f"Bearer {tokens["access_token"]}"}
         try:
-            tokens = response.json()
-            headers = {"Authorization": f"Bearer {tokens["access_token"]}"}
+            # tokens = response.json()
             job_details_req = requests.get(f"{API_BASE_URL}/jobads/{job_id}", headers=headers)
             print(job_details_req.json())
             if job_details_req.status_code != 200:  # If job not found
@@ -135,7 +154,7 @@ def get_job_details_al(job_id, application_id):
 
         return jsonify({"success": True, "job_details": job_details})
     
-    return jsonify({"success": False, "reason": "system_error"})
+    return jsonify({"success": False, "reason": "not doing shit"})
 
 
 
