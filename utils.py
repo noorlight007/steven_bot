@@ -110,7 +110,7 @@ def send_twilio_message():
 
     account_sid = os.getenv('ACCOUNT_SID')
     auth_token = os.getenv('AUTH_TOKEN')
-    messaging_service_sid = os.getenv('TWILIO_MESSAGING_SERVICE_SID')
+    messaging_service_sid = os.getenv('MESSAGING_SID')
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
