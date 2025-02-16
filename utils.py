@@ -4,6 +4,7 @@ import requests
 from dotenv import load_dotenv
 load_dotenv()
 from gpt_functions import *
+import time
 
 # JobAdder API credentials
 CLIENT_ID = os.getenv('JOBADDER_CLIENT_ID')

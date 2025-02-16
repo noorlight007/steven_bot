@@ -3,6 +3,7 @@ from twilio.rest import Client
 import os
 from dotenv import load_dotenv
 load_dotenv()
+import time
 
 import requests
 import os, json
@@ -272,7 +273,12 @@ def whatsapp():
         time.sleep(1)
 
     print(final_response)
-
+    twilio_client.messages.create(
+        from_= phone_number,
+        to= sender,
+        body=final_response
+    )
+    return "Message sent successfully"
 
     
 
