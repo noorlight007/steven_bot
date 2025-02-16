@@ -187,13 +187,14 @@ def whatsapp():
         queue_time = 1
         if run_status.status == "failed":
             final_response = "Sorry I am having issues generating responses for queries now. Please wait for me to fix it."
-            run_status.status = "completed"
-            continue
+            deleteRun(session["user"]["thread_id"])
+            break
             
         elif run_status.status == "queued":
             if queue_time == 15:
                 final_response = "Sorry I am having issues generating responses for queries now. Please wait for me to fix it."
-                continue
+                deleteRun(session["user"]["thread_id"])
+                break
             queue_time+= 1
             
         elif run_status.status == "requires_action":
@@ -283,11 +284,6 @@ def whatsapp():
         body=final_response
     )
     return "Message sent successfully"
-
-    
-
-    
-
 
 
 if __name__ == "__main__":
