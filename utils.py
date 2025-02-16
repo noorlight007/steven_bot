@@ -30,36 +30,13 @@ def get_job_details(job_ad_id, applicantion_id):
 
 def update_application_status(applicantion_id, new_status):
     ## Status dictionary
-    status_dict = {"unsuccessful": 2107, "successful": 13251, "not interested": 13250}
-    """Handle OAuth callback and exchange code for access token"""
-
-    # Exchange authorization code for access token
-    token_data = {
-        "client_id": CLIENT_ID,
-        "client_secret": CLIENT_SECRET,
-        "grant_type": "refresh_token",
-        "refresh_token": "f2d1f83ef979f2ef23b7b30cc53ed3c7"
-    }
-    # f2d1f83ef979f2ef23b7b30cc53ed3c7
-
-    headers = {"Content-Type": "application/x-www-form-urlencoded"}
-    response = requests.post(TOKEN_URL, data=token_data, headers=headers)
+    headers = {"Content-Type": "application/json"}
+    response = requests.get(f"https://chatbot.rd1.co.uk/update_application_status?applicantion_id={applicantion_id}&new_status={new_status}", headers= headers)
 
     if response.status_code == 200:
-        try:
-            data = {
-                "statusId": status_dict[new_status],  # Replace with the new status ID
-            }
-            data_changes = requests.put(f"{API_BASE_URL}/applications/{applicantion_id}/status", json=data, headers=headers)
-            if data_changes.status_code == 200:
-                return {"success": True}
-            else:
-                return {"success": False, "reason": "status_not_updated"}
-        except:
-            return {"success": False, "reason": "application_not_found"}  # If application not found
-        
-    return {"success": False, "reason": "system_error"}
-
+        return {"success": True}
+    else:
+        return {"success": False, "reason": "status_not_updated"}
 
 
 def send_twilio_message():
@@ -104,3 +81,5 @@ If you want, confirm me now.'''
 
 # print(send_twilio_message())
 # print(get_job_details(sample_job_id, sample_application_id))
+
+print(update_application_status(sample_application_id, 27789))

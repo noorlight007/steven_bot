@@ -158,6 +158,70 @@ def get_job_details_al():
 
 
 
+@app.route("/update_application_status", methods=["GET"])
+def update_apps():
+    # Parse JSON request data
+    # data = request.get_json()
+    
+    # if not data or "job_id" not in data or "application_id" not in data:
+    #     return jsonify({"success": False, "reason": "Missing job_id or application_id"}), 400
+
+    # job_ad_id = data["job_id"]
+    # application_id = data["application_id"]
+    """Handle OAuth callback and exchange code for access token"""
+    applicantion_id = request.args["applicantion_id"]
+    new_status = request.args["new_status"]
+    status_dict = {"unsuccessful": 2107, "successful": 13251, "not interested": 13250}
+
+    token_data = {
+        "client_id": CLIENT_ID,
+        "client_secret": CLIENT_SECRET,
+        "grant_type": "refresh_token",
+        "refresh_token": "f52fb704a18729131bc1e4aace77d73e",
+    }
+
+    headers = {"Content-Type": "application/x-www-form-urlencoded"}
+    response = requests.post(TOKEN_URL, data=token_data, headers=headers)
+    # Write JSON to a file with 4-space indentation
+    
+    if response.status_code == 200:
+        tokens = response.json()
+        session["access_token"] = tokens["access_token"]
+        session["refresh_token"] = tokens.get("refresh_token", "")
+
+    # Exchange authorization code for access token
+    # token_data = {
+    #     "client_id": CLIENT_ID,
+    #     "client_secret": CLIENT_SECRET,
+    #     "grant_type": "refresh_token",
+    #     "refresh_token": "f52fb704a18729131bc1e4aace77d73e"
+    # }
+    # f2d1f83ef979f2ef23b7b30cc53ed3c7
+
+    # headers = {"Content-Type": "application/x-www-form-urlencoded"}
+    # response = requests.post(TOKEN_URL, data=token_data, headers=headers)
+    # print(response.json())
+
+    # if response.status_code == 200:
+        headers = {"Authorization": f"Bearer {tokens["access_token"]}"}
+        try:
+            data = {
+                "statusId": status_dict[new_status],  # Replace with the new status ID
+            }
+            data_changes = requests.put(f"{API_BASE_URL}/applications/{applicantion_id}/status", json=data, headers=headers)
+            # tokens = response.json()
+            # job_details_req = requests.get(f"{API_BASE_URL}/jobads/{job_id}", headers=headers)
+            # print(job_details_req.json())
+            if data_changes.status_code != 200:  # If job not found
+                return jsonify({"success": False, "reason": "application_not_found"})
+            else:
+                return jsonify ({"success": True})
+        except Exception as e:
+            return jsonify({"success": False, "reason": str(e)})
+    
+    return jsonify({"success": False, "reason": "not doing shit"})
+
+
 @app.route("/callback")
 def callback():
 
