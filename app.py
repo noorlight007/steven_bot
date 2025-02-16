@@ -138,7 +138,7 @@ def get_job_details_al(job_id, application_id):
 
 
 @app.route("/callback")
-def callback(job_id, application_id):
+def callback():
 
     job_id = request.args["job_id"]
     application_id = request.args["application_id"]
