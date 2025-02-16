@@ -116,9 +116,9 @@ def send_twilio_message():
     message = client.messages.create(
         messaging_service_sid=messaging_service_sid,
         content_sid='HX447ca33fbd74315dcd4b377b98536aa1',
-        content_variables= json.dumps({"job_title": "Joiner - £20ph - Stirling",
-                                       "job_id": 591198,
-                                       "application_id": 8762438}),
+        content_variables= json.dumps({"1": "Joiner - £20ph - Stirling",
+                                       "2": 591198,
+                                       "3": 8762438}),
         to='whatsapp:+8801571238110'
     )
     from db_users import create_new_contact, add_thread_id
