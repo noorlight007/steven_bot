@@ -8,4 +8,4 @@ data = {
     "application_id": "8762438"
 }
 response = requests.post("https://chatbot.rd1.co.uk/callback", json=data)
-print(response.json())
+print(response)
