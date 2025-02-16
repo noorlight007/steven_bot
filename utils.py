@@ -34,6 +34,7 @@ def get_job_details(job_ad_id, applicantion_id):
     if response.status_code == 200:
         try:
             job_details_req = requests.get(f"{API_BASE_URL}/jobads/{sample_jon_id}", headers=headers)
+            print(job_details_req.json())
             if job_details_req.status_code != 200:  # If job not found
                 return {"success": False, "reason": "Job_not_found"}
         except Exception as e:
