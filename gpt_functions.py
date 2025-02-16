@@ -164,7 +164,7 @@ def deleteRun(thread_id):
         last_run_id = last_run.id
         
         # Cancel the last run
-        client.beta.threads.runs.cancel(run_id=last_run_id)
+        client.beta.threads.runs.cancel(run_id=last_run_id, thread_id=thread_id)
         
         return f"Last run {last_run_id} has been canceled."
 
