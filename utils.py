@@ -146,4 +146,4 @@ If you want, confirm me now.'''
         print(f"Failed to send message. Error: {message.error_message}")
     return message.sid
 
-#print(send_twilio_message())
+print(send_twilio_message())
