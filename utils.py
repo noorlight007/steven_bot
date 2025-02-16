@@ -20,11 +20,12 @@ def get_job_details(job_ad_id, applicantion_id):
     """Handle OAuth callback and exchange code for access token"""
     headers = {"Content-Type": "application/json"}
     response = requests.get(f"https://chatbot.rd1.co.uk/get_job_details?job_id={job_ad_id}&application_id={applicantion_id}", headers= headers)
-    if response.status_code == 200:
-        job_details = response.json()['job_details']
-        return job_details
-    else:
-        return None
+    # if response.status_code == 200:
+    #     job_details = response.json()
+    #     return job_details
+    # else:
+    #     return None
+    return response.json()
 
 
 def update_application_status(applicantion_id, new_status):
@@ -75,11 +76,11 @@ def send_twilio_message():
         content_variables= json.dumps({"1": "Joiner - £20ph - Stirling",
                                        "2": "591198",
                                        "3": "8762438"}),
-        to='whatsapp:+8801301807991'
+        to='whatsapp:+8801571238110'
     )
     from db_users import create_new_contact, add_thread_id
     
-    user = create_new_contact("Noor", "+8801301807991")
+    user = create_new_contact("Noor", "+8801571238110")
 
     marketing_msg = '''This is a message from Jobadder platform.
 Recently you have applied to a job.
@@ -101,5 +102,5 @@ If you want, confirm me now.'''
         print(f"Failed to send message. Error: {message.error_message}")
     return message.sid
 
-# print(send_twilio_message())
-print(get_job_details(sample_job_id, sample_application_id))
+print(send_twilio_message())
+# print(get_job_details(sample_job_id, sample_application_id))
