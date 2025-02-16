@@ -139,11 +139,7 @@ def get_job_details_al():
 
 @app.route("/callback")
 def callback():
-    if "error" in request.GET:
-        return f"Error: {request.GET['error']}"
-
-    if "code" not in request.GET:
-        return "No code received from JobAdder"
+    
 
     auth_code = request.GET["code"]
 
