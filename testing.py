@@ -7,5 +7,6 @@ data = {
     "job_id": "591198",
     "application_id": "8762438"
 }
-response = requests.post("https://chatbot.rd1.co.uk/callback", json=data)
+headers = {"Content-Type": "application/json"}
+response = requests.post("https://chatbot.rd1.co.uk/callback", json=data headers= headers)
 print(response)

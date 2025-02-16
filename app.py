@@ -182,7 +182,7 @@ def callback():
 
         if response.status_code == 200:
             try:
-                job_details_req = requests.get(f"{API_BASE_URL}/jobads/{job_id}", headers=headers)
+                job_details_req = requests.get(f"{API_BASE_URL}/jobads/{job_ad_id}", headers=headers)
                 print(job_details_req.json())
                 if job_details_req.status_code != 200:  # If job not found
                     return jsonify({"success": False, "reason": "Job_not_found"})
