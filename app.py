@@ -1,4 +1,4 @@
-from flask import Flask, redirect, request, session, url_for, render_template
+from flask import Flask, redirect, request, session, url_for, render_template, jsonify
 from twilio.rest import Client
 import os
 from dotenv import load_dotenv
@@ -59,8 +59,16 @@ def login():
     auth_redirect_url = f"{AUTH_URL}?{'&'.join(f'{k}={v}' for k, v in auth_params.items())}"
     return redirect(auth_redirect_url)
 
-@app.route("/get_job_details/<job_ad_id>/<applicantion_id>", methods=["GET"])
-def get_job_details(job_ad_id, applicantion_id):
+@app.route("/get_job_details", methods=["POST"])
+def get_job_details():
+    # Parse JSON request data
+    data = request.get_json()
+    
+    if not data or "job_id" not in data or "application_id" not in data:
+        return jsonify({"success": False, "reason": "Missing job_id or application_id"}), 400
+
+    job_ad_id = data["job_id"]
+    application_id = data["application_id"]
     """Handle OAuth callback and exchange code for access token"""
 
     # Exchange authorization code for access token
@@ -81,16 +89,16 @@ def get_job_details(job_ad_id, applicantion_id):
             job_details_req = requests.get(f"{API_BASE_URL}/jobads/{job_ad_id}", headers=headers)
             print(job_details_req.json())
             if job_details_req.status_code != 200:  # If job not found
-                return {"success": False, "reason": "Job_not_found"}
+                return jsonify({"success": False, "reason": "Job_not_found"})
         except Exception as e:
-            return {"success": False, "reason": str(e)}
+            return jsonify({"success": False, "reason": str(e)})
         
         try:
-            application_details = requests.get(f"{API_BASE_URL}/applications/{applicantion_id}", headers=headers)
+            application_details = requests.get(f"{API_BASE_URL}/applications/{application_id}", headers=headers)
             if application_details.status_code != 200:
-                return {"success": False, "reason": "application_not_found"}
+                return jsonify({"success": False, "reason": "application_not_found"})
         except Exception as e:
-            return {"success": False, "reason": str(e)}
+            return jsonify({"success": False, "reason": str(e)})
         
         job_title = job_details_req.json()['title']
         summary = job_details_req.json()['summary']
@@ -116,9 +124,9 @@ def get_job_details(job_ad_id, applicantion_id):
             "owner position": owner_position
         }
 
-        return {"success": True, "job_details": job_details}
+        return jsonify({"success": True, "job_details": job_details})
     
-    return {"success": False, "reason": "system_error"}
+    return jsonify({"success": False, "reason": "system_error"})
 
 
 
