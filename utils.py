@@ -82,4 +82,4 @@ If you want, confirm me now.'''
 # print(send_twilio_message())
 # print(get_job_details(sample_job_id, sample_application_id))
 
-print(update_application_status(sample_application_id, 27789))
+print(update_application_status(sample_application_id, "sent_waiting"))

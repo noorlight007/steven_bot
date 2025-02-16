@@ -171,7 +171,7 @@ def update_apps():
     """Handle OAuth callback and exchange code for access token"""
     applicantion_id = request.args["applicantion_id"]
     new_status = request.args["new_status"]
-    status_dict = {"unsuccessful": 2107, "successful": 13251, "not interested": 13250}
+    status_dict = {"sent_waiting": 27789,"unsuccessful": 2107, "successful": 13251, "not interested": 13250}
 
     token_data = {
         "client_id": CLIENT_ID,
