@@ -1,0 +1,9 @@
+{
+    "access_token": "e6613eeac425fb579862e4b7cfc2e222",
+    "expires_in": 3600,
+    "token_type": "Bearer",
+    "refresh_token": "7398f649ef7518bf647c9f4cd83a5a0c",
+    "api": "https://eu3api.jobadder.com/v2/",
+    "instance": "eu3",
+    "account": 1108
+}

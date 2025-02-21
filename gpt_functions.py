@@ -29,10 +29,10 @@ def create_assistant(assistant_name, my_instruction):
     client = OpenAI(api_key=openAI_key)
     my_assistant = client.beta.assistants.create(
         name = assistant_name,
-        description= "You are a virtual assistant who is very talented in generating questions for a job interview. You will generate questions for a job interview based on the job description. You will also validate the applicant's answers of the questions that you will generate.",
+        description= "You are a virtual senior assistant who is very talented in generating questions for job interviews in a creative way. You will generate questions for a job interview based on the job description. You will also validate the applicant's answers of the questions that you will generate.",
         instructions = my_instruction,
-        model="gpt-4",
-        temperature= 1.0,
+        model="gpt-4o",
+        temperature= 1.1,
         tools=[
                {
                 "type": "function",

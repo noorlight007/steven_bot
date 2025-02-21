@@ -1,0 +1,260 @@
+{
+    "items": [
+        {
+            "applicationId": 8774208,
+            "jobTitle": "Maintenance Electrician - \u00a326 per hour - Perth",
+            "jobReference": "PERELE1402",
+            "source": "Recruitment Direct",
+            "status": {
+                "statusId": 2097,
+                "name": "Applied",
+                "active": true,
+                "default": true,
+                "workflow": {
+                    "stage": "New",
+                    "stageIndex": 1,
+                    "step": 1
+                }
+            },
+            "candidate": {
+                "candidateId": 13514425,
+                "firstName": "Steven",
+                "lastName": "Peddie",
+                "email": "steven@rd1.co.uk",
+                "phone": "07872 603687",
+                "mobile": "07872603687",
+                "unsubscribed": false,
+                "address": {
+                    "postalCode": "eh49 6sf",
+                    "country": "United Kingdom",
+                    "countryCode": "GB",
+                    "postcode": "eh49 6sf"
+                },
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/candidates/13514425"
+                }
+            },
+            "job": {
+                "jobId": 1073137,
+                "jobTitle": "Electrician",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/jobs/1073137",
+                    "company": "https://eu3api.jobadder.com/v2/companies/2010859",
+                    "contact": "https://eu3api.jobadder.com/v2/contacts/13836096"
+                }
+            },
+            "jobAd": {
+                "adId": 591117,
+                "state": "Current",
+                "title": "Maintenance Electrician - \u00a326 per hour - Perth",
+                "reference": "PERELE1402",
+                "bulletPoints": [],
+                "postAt": "2025-02-14T12:42:37Z",
+                "expireAt": "2025-02-28T12:42:00Z",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/jobads/591117",
+                    "applications": "https://eu3api.jobadder.com/v2/jobads/591117/applications"
+                }
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626"
+            },
+            "createdAt": "2025-02-17T14:03:50Z",
+            "updatedBy": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626"
+            },
+            "updatedAt": "2025-02-17T14:03:54Z",
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/applications/8774208",
+                "attachments": "https://eu3api.jobadder.com/v2/applications/8774208/attachments"
+            }
+        },
+        {
+            "applicationId": 8774000,
+            "jobTitle": "Maintenance Electrician - \u00a326 per hour - Perth",
+            "jobReference": "PERELE1402",
+            "source": "indeed.com",
+            "status": {
+                "statusId": 2097,
+                "name": "Applied",
+                "active": true,
+                "default": true,
+                "workflow": {
+                    "stage": "New",
+                    "stageIndex": 1,
+                    "step": 1
+                }
+            },
+            "candidate": {
+                "candidateId": 15166453,
+                "firstName": "Jonathan",
+                "lastName": " Leck",
+                "email": "jonnyleck@hotmail.co.uk",
+                "phone": "+44 7761 796653",
+                "mobile": "07761796653",
+                "unsubscribed": false,
+                "address": {
+                    "street": [
+                        "30 Coldstream Drive"
+                    ],
+                    "city": "Dundee",
+                    "postalCode": "DD4 0TJ",
+                    "postcode": "DD4 0TJ"
+                },
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/candidates/15166453"
+                }
+            },
+            "job": {
+                "jobId": 1073137,
+                "jobTitle": "Electrician",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/jobs/1073137",
+                    "company": "https://eu3api.jobadder.com/v2/companies/2010859",
+                    "contact": "https://eu3api.jobadder.com/v2/contacts/13836096"
+                }
+            },
+            "jobAd": {
+                "adId": 591117,
+                "state": "Current",
+                "title": "Maintenance Electrician - \u00a326 per hour - Perth",
+                "reference": "PERELE1402",
+                "bulletPoints": [],
+                "postAt": "2025-02-14T12:42:37Z",
+                "expireAt": "2025-02-28T12:42:00Z",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/jobads/591117",
+                    "applications": "https://eu3api.jobadder.com/v2/jobads/591117/applications"
+                }
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626"
+            },
+            "createdAt": "2025-02-17T13:47:46Z",
+            "updatedBy": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626"
+            },
+            "updatedAt": "2025-02-17T13:47:48Z",
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/applications/8774000",
+                "attachments": "https://eu3api.jobadder.com/v2/applications/8774000/attachments"
+            }
+        },
+        {
+            "applicationId": 8761834,
+            "jobTitle": "Electrician - \u00a326ph - Perth",
+            "jobReference": "PERELE1402",
+            "source": "indeed.com",
+            "status": {
+                "statusId": 2102,
+                "name": "Submitted to Client",
+                "active": true,
+                "workflow": {
+                    "stage": "Submitted to Client",
+                    "stageIndex": 3,
+                    "step": 3,
+                    "progress": "InProgress"
+                }
+            },
+            "candidate": {
+                "candidateId": 15150483,
+                "firstName": "Mark",
+                "lastName": " McBride",
+                "email": "mcbridem080@aol.com",
+                "phone": "+44 7539 577807",
+                "mobile": "+44 7539 577807",
+                "unsubscribed": false,
+                "address": {
+                    "street": [
+                        "Approved 18th Edition Electrician"
+                    ],
+                    "city": "Blairgowrie",
+                    "state": "Scotland",
+                    "country": "United Kingdom",
+                    "countryCode": "GB"
+                },
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/candidates/15150483"
+                }
+            },
+            "job": {
+                "jobId": 1073137,
+                "jobTitle": "Electrician",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/jobs/1073137",
+                    "company": "https://eu3api.jobadder.com/v2/companies/2010859",
+                    "contact": "https://eu3api.jobadder.com/v2/contacts/13836096"
+                }
+            },
+            "jobAd": {
+                "adId": 591117,
+                "state": "Current",
+                "title": "Maintenance Electrician - \u00a326 per hour - Perth",
+                "reference": "PERELE1402",
+                "bulletPoints": [],
+                "postAt": "2025-02-14T12:42:37Z",
+                "expireAt": "2025-02-28T12:42:00Z",
+                "links": {
+                    "self": "https://eu3api.jobadder.com/v2/jobads/591117",
+                    "applications": "https://eu3api.jobadder.com/v2/jobads/591117/applications"
+                }
+            },
+            "owner": {
+                "userId": 1358,
+                "firstName": "Nicola",
+                "lastName": "Barbour",
+                "position": "Construction Manager",
+                "jobTitle": "Construction Manager",
+                "email": "nicola@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590882626"
+            },
+            "createdAt": "2025-02-15T14:12:58Z",
+            "updatedBy": {
+                "userId": 10485,
+                "firstName": "Steven",
+                "lastName": "Peddie",
+                "email": "steven@rd1.co.uk",
+                "phone": "01324 613198",
+                "mobile": "07590 882626"
+            },
+            "updatedAt": "2025-02-16T12:35:06Z",
+            "links": {
+                "self": "https://eu3api.jobadder.com/v2/applications/8761834",
+                "attachments": "https://eu3api.jobadder.com/v2/applications/8761834/attachments"
+            }
+        }
+    ],
+    "totalCount": 3,
+    "links": {
+        "first": "https://eu3api.jobadder.com/v2/applications?adId=591117&limit=50"
+    }
+}
